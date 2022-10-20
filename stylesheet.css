@@ -131,14 +131,20 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+/* for devices with width < 600 */
 @media (max-width: 600px) {
   .responsive-image {
-      display:none;
+    display:none;
+  }
+  .responsive-width {
+    width:90%;
+    margin-right:auto;margin-left:auto;
   }
 }
 
+/* for devices with width > 600 */
 @media (min-width: 600px){
   .responsive-text {
-      display: none;
+    display: none;
   }
 }
