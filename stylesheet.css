@@ -126,10 +126,6 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.center {
-  /* border: 5px solid #FFFF00; */
-  text-align: center;
-  }
 
 span.highlight {
   background-color: #ffffd0;
