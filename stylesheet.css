@@ -136,10 +136,10 @@ span.highlight {
   .responsive-image {
     display:none;
   }
-  .responsive-width {
+  /* .responsive-width {
     width:90%;
     margin-right:auto;margin-left:auto;
-  }
+  } */
 }
 
 /* for devices with width > 600 */
