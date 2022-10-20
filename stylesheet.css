@@ -130,3 +130,9 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+@media (max-width: 767px) {
+  .responsive-image {
+      display:none;
+  }
+}
