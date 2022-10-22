@@ -19,7 +19,12 @@
   <!-- <link rel="image_src" href="https://github.com/kimdanny/kimdanny.github.io/blob/master/images/profilepic.jpeg"> -->
 </head>
 
-<body>
+<body onload="zoom()">
+  <script type="text/javascript">
+    function zoom() {
+            document.body.style.zoom = "100%" 
+    }
+  </script>
   <!-- <div style="overflow-x:auto;"> -->
   <div>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -49,7 +54,7 @@
                     During the summer of 2022, I interned at <a href="https://vector.ai">Vector.ai</a> as a Machine Learning Engineer, 
                       automating the paperwork in freight forwarding industry by OCR and NLP.
                     <br>
-                    From May 2021, I joined team <a href="https://www.amazon.science/alexa-prize/teams/university-college-london-condita">Condita</a> as a main developer to compete in the first <a href="https://www.amazon.science/alexa-prize/taskbot-challenge">Alexa Prize TaskBot Challenge</a>, 
+                    From May 2021, I joined team <a href="https://www.amazon.science/alexa-prize/teams/university-college-london-condita">Condita</a> as a main developer to compete in the first Amazon <a href="https://www.amazon.science/alexa-prize/taskbot-challenge">Alexa Prize TaskBot Challenge</a>, 
                       where I spent significant amount of time, constructing a real-time, multi-modal, knowledge-intensive, and interactive conversational assistant; 
                       our team has made to the quarterfinals.
                     <br>
@@ -69,7 +74,8 @@
                     <a href="https://scholar.google.com/citations?user=3ymamHAAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                     <a href="https://kimdanny.github.io/blog/">Blog</a> &nbsp/&nbsp
                     <a href="https://twitter.com/TEKnologyy">Twitter</a> &nbsp/&nbsp
-                    <a href="https://github.com/kimdanny/">Github</a> <br><br>
+                    <a href="https://github.com/kimdanny/">Github</a> 
+                    <br><br>
                     <a href="https://twitter.com/TEKnologyy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TEKnologyy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                   </p>
                 </td>
@@ -93,7 +99,10 @@
                   <br><br>
                   <a href="#research">Research</a> &nbsp/&nbsp
                   <a href="#publications">Publications</a> &nbsp/&nbsp
+                  <br>
                   <a href="#presentations">Presentations & Workshops</a> &nbsp/&nbsp
+                  <br>
+                  <a href="#teaching">Teaching & Mentoring</a> &nbsp/&nbsp
               </td>
             </tr>
           </tbody>
@@ -108,11 +117,48 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <heading><b>Research</b></heading>
                 <p>
-                  My research broadly aims at finding ways to encode human knowledge to computable forms, i.e., language models or graphs, 
-                  and make the knowledge retrievable by (conversational) search systems.
-                  <!-- <li></li> -->
+                  The ultimate goal of my research aims for a real-time conversational assistants.
+                  Therefore, I try to find better ways to <b>encode</b> human knowledge into computable forms, i.e., language models or graphs, 
+                  and make the knowledge <b>retrievable</b> by (conversational) search systems.
                   <!-- Representative papers are <span class="highlight">highlighted</span>. -->
                 </p>
+
+                <p>
+                  <b>Current Research</b>:
+                  <ul>
+                    <li>Response Ranking/Selection with Conversational Look-Ahead that optimizes user satisfaction</li>
+                    <li>Evaluation of Conversational System by User Simulation</li>
+                    <li>Interactive Grounded Language Understanding - Asking Clarification Questions</li>
+                    <li>Use of Knowledge Graphs in Conversational Search Systems</li>
+                    <li>Extracting multimodal information from text: focusing on underresearched sense</li>
+                  </ul>
+                </p>
+
+                <p>
+                  <b>Under Review</b> (not disclosing title for anonymity):
+                  <ul>
+                    <li>
+                      Extracting odour information from text (first-author). Submitted at <i>International Journal of Human-Computer Studies</i>.
+                    </li>
+                  </ul>
+                </p>
+
+                <p>
+                  <b>Theses</b>
+                  <ul>
+                    <li>
+                      Master's: <a href="https://drive.google.com/file/d/1tA9DimDM9Mz5cWdbelZgsIP8D63evW2n/view">Multi-Task Neural User Simulator for Task Oriented Dialogue System</a>
+                    </li>
+                    <li>
+                      Bachelor's: <a href="https://drive.google.com/file/d/1lhXtb0c5mApa0n78qHJL6rdkxGpHI1e9/view">Exploring the Potential of Automating the Process of Clustering Smell Stories</a>
+                    </li>
+                  </ul>
+                </p>
+
+                <!-- <p>
+                  Research Statement
+                  Research Proposals
+                </p> -->
               </td>
             </tr>
             </tbody>
@@ -314,10 +360,90 @@
 
         <hr style="width:100%;text-align:left;margin-left:0">
 
+        <!-- Teaching and Society Section -->
+        <div id="teaching">
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+            <tr>
+              <td>
+                <heading><b>Teaching & Mentoring</b></heading>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <table width="100%" align="center" border="0" cellpadding="20">
+            <tbody>
+
+              <!-- At UCL -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src="images/ucl-logo.png" width="160" height="160">
+                </td>
+                <td width="75%" valign="center">
+                  
+                  <!-- TA -->
+                  <b>Teaching Assistants</b> (MSc courses)
+                  <ul>
+                    <li>CEGE0096: Geospatial Programming (Fall 2022)
+                      <ul>
+                        <li>Coursework marking automation <a href="">[interesting solution in my blog post]</a></li>
+                      </ul>
+                    </li>
+                    <li>CEGE0004: Machine Learning for Data Science (Spring 2023)</li>
+                    <li>COMP0071 Software Engineering (Spring 2023)</li>
+                    <!-- <li>COMP0189: Applied Artificial Intelligence (Spring 2023)</li> -->
+                  </ul>
+                  
+                  <!-- Transition Mentor -->
+                  <b>Transition Mentor</b>
+                  <ul>
+                    <li>Helping 1<sup>st</sup> year CS students with programming (C, Java, Python, Haskell)</li>
+                  </ul>
+                </td>
+              </tr>
+              
+              <!-- UCL AI Society -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src="images/ucl-ai-soc.png" width="160" height="160">
+                </td>
+                <td width="75%" valign="center">
+                  <a href="https://github.com/UCLAIS"><b>UCL Artificial Intelligence Society</b></a>
+                  <br> 
+                  <i>A Founder, Maintainer, and Lecturer of <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials">Machine Learning Tutorial Series</a></i>
+                  <br>
+                  <ul>
+                    <li>
+                      Season 20/21 : 
+                      <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials">[GitHub]</a>
+                      <a href="https://www.youtube.com/playlist?list=PL4JaWnfkTBbOLFG8xW5Ggtj_nRpgyDhIQ">[Lecture Recordings]</a>
+                    </li>
+                    <li>
+                      Season 21/22 :
+                      <a href="https://github.com/UCLAIS/ML-Tutorials-Season-2">[GitHub]</a>
+                      <a href="https://kimdanny.github.io/blog/random/aisoc-tutorial-event/">[Pictures in blog]</a>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+
+        <hr style="width:100%;text-align:left;margin-left:0">
+
         <!-- Twitter Embedding | Source Code Creditation -->
         <div id="bottom">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr>
+                <td style="text-align:center; vertical-align:middle;">
+                  <p>
+                    You can know me better from my <a href="https://kimdanny.github.io/assets/CV.pdf">CV</a>
+                  </p>
+                </td>
+              </tr>
               <tr>
                 <td style="text-align:center; vertical-align:middle; display:flex; justify-content:center;">
                   <a class="twitter-timeline" style="text-align:center; vertical-align:middle;"
