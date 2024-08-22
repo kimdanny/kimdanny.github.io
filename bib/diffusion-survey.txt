@@ -1,8 +1,0 @@
-@misc{koo2023comprehensive,
-      title={A Comprehensive Survey on Generative Diffusion Models for Structured Data}, 
-      author={Heejoon Koo and To Eun Kim},
-      year={2023},
-      eprint={2306.04139},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}

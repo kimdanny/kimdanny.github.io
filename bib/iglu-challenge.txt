@@ -1,8 +1,0 @@
-@misc{shi2023ask,
-      title={When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution}, 
-      author={Zhengxiang Shi and Jerome Ramos and To Eun Kim and Xi Wang and Hossein A. Rahmani and Aldo Lipani},
-      year={2023},
-      eprint={2305.05754},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}

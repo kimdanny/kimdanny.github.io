@@ -1,7 +1,0 @@
-@Inproceedings{London2022,
- author = {University College London},
- title = {Condita: A state machine like architecture for multi-modal task bots},
- year = {2022},
- url = {https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots},
- booktitle = {Alexa Prize TaskBot Challenge Proceedings},
-}

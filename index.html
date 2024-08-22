@@ -51,10 +51,9 @@
                   </p> -->
 
                   <p>
-                    I'm a first year PhD student at CMU <a href="https://lti.cs.cmu.edu">Language Technologies Institute (LTI)</a>, advised by Prof. <a href="https://841.io">Fernando Diaz</a>.
+                    I'm a second year PhD student at CMU <a href="https://lti.cs.cmu.edu">Language Technologies Institute (LTI)</a>, advised by Prof. <a href="https://841.io">Fernando Diaz</a>.
                     My research interests span the fields of Natural Language Processing (NLP) and Information Retrieval (IR), 
                       with recent emphasis on <b>retrieval-enhanced machine learning (REML) and known-item retrieval</b>. 
-                      I like to draw inspiration from a broader context, including areas like psychology, cognition, and neuroscience.
                   </p>
 
                   <p>
@@ -84,7 +83,7 @@
                     I had the privilege of founding the first <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials">Machine Learning tutorial series</a>, which has become an annual tradition. 
                   </p>
                   <p>
-                    Check out my <a href="https://kimdanny.github.io/blog/">blog page</a> or <a href="pictures.html">pictures</a> for more!
+                    Check out my <a href="https://kimdanny.github.io/blog/">blog page</a> if you are interested!
                   </p>
                   
                   <p style="text-align:center">
@@ -183,13 +182,90 @@
             <tbody>
             <tr>
               <td>
-                <heading><b>Publications</b></heading>
+                <heading><b>Selected Publications</b></heading>
               </td>
             </tr>
             </tbody>
           </table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              
+              <!-- REML Survey -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src='images/reml-survey.png' width="200" height="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2407.12982">
+                    <papertitle>Retrieval-Enhanced Machine Learning: Synthesis and Opportunities</papertitle>
+                  </a>
+                  <br>
+                  <strong>To Eun Kim</strong>, Alireza Salemi, Andrew Drozdov, Fernando Diaz, Hamed Zamani
+                  <br>
+                  Preprint, 2024
+                  <br>
+                  <a href="https://arxiv.org/abs/2306.04139">arXiv</a>
+                  <p>
+                    In this work, we posit that the paradigm of retrieval-enhancement can be extended to a broader spectrum of machine learning (ML) 
+                    such as computer vision, time series prediction, and computational biology, not just limited to NLP. 
+                    We introduce a formal framework of Retrieval-Enhanced Machine Learning (REML), 
+                    by synthesizing the literature in various domains in ML with consistent notations.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Diffusion Survey -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src='images/diffusion-survey.png' width="200" height="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2306.04139">
+                    <papertitle>A Comprehensive Survey on Generative Diffusion Models for Structured Data</papertitle>
+                  </a>
+                  <br>
+                  Heejoon Koo, <strong>To Eun Kim</strong>
+                  <br>
+                  Preprint, 2023
+                  <br>
+                  <a href="https://arxiv.org/abs/2306.04139">arXiv</a>
+                  <p>
+                    There is still a lack of literature and its reviews on structured data modelling via diffusion models, compared to other data modalities such as visual and textual data. 
+                    To address this gap, we present a comprehensive review of recently proposed diffusion models in the field of structured data. 
+                    First, this survey provides a concise overview of the score-based diffusion model theory, 
+                      subsequently proceeding to the technical descriptions of the majority of pioneering works that used structured data in both data-driven general tasks and domain-specific applications. 
+                    Thereafter, we analyse and discuss the limitations and challenges shown in existing works and suggest potential research directions. 
+                  </p>
+                </td>
+              </tr>
+
+              <!-- IGLU challenge -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src='images/iglu-chall.png' width="200" height="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2305.05754">
+                    <papertitle>When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution</papertitle>
+                  </a>
+                  <br>
+                  Z. Shi*, J. Ramos*, <strong>To Eun Kim</strong>, X. Wang, H. Rahmani,
+                  <a href="https://aldolipani.com">Aldo Lipani</a>
+                  <br>
+                  * denotes equal contribution. <br>
+                  <em>IGLU NeurIPS Workshop</em>, 2022 <br>
+                  <a href="https://arxiv.org/abs/2305.05754">arXiv</a>
+                  <p>
+                    In the NeurIPS 2022 IGLU Challenge NLP Task, we address two key research questions: 1) when should the agent ask for clarification, and 
+                    2) what clarification questions should it ask.
+                    In this report, we briefly introduce our methods for the classification and ranking task. 
+                    For the classification task, our model achieves an F1 score of 0.757, which placed the 3rd on the leaderboard. 
+                    For the ranking task, our model achieves about 0.38 for Mean Reciprocal Rank by extending the traditional ranking model. 
+                    Lastly, we discuss various neural approaches for the ranking task and future direction.
+                  </p>
+                </td>
+              </tr>
+
               <!-- sigir -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
@@ -209,10 +285,7 @@
                   <!-- For downloadable bibtex, uncomment below -->
                   <!-- <a href="bib/kimSIGIR2022.txt">bibtex</a> / -->
                   <a href="https://www.researchgate.net/publication/362704102_A_Multi-Task_Based_Neural_Model_to_Simulate_Users_in_Goal-Oriented_Dialogue_Systems">poster</a> /
-                  <a href="https://github.com/kimdanny/user-simulation-t5">code</a> /
-                  <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    bibtex
-                  </a><div style="DISPLAY: none"><embed src="bib/kimSIGIR2022.txt"></div>
+                  <a href="https://github.com/kimdanny/user-simulation-t5">code</a>
                   <p></p>
                   <p>
                     Conversational User Simulator that 1) generates user-side utterance, 2) predicts user's next action and 3) satisfaction level by multi-task learning.
@@ -252,11 +325,7 @@
                   * denotes equal contribution. <br>
                   <em>Alexa Prize TaskBot Challenge Proceedings</em>, 2022
                   <br>
-                  <a href="https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots">paper</a> /
-                  <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    bibtex
-                  </a><div style="DISPLAY: none"><embed src="bib/condita2022.txt"></div>
-                  <p></p>
+                  <a href="https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots">paper</a> 
                   <p>
                     We present <b>CO</b>oking-a<b>N</b>d-<b>DI</b>y-<b>TA</b>sk-based (Condita) task-oriented dialogue system, for the 2021 Alexa Prize TaskBot Challenge. 
                     Condita provides an engaging multi-modal agent that assists users in cooking and home improvement tasks, creating a memorable and enjoyable experience to users. 
@@ -264,6 +333,8 @@
                   </p>
                 </td>
               </tr>
+
+              
 
               <!-- esann -->
               <tr>
@@ -285,11 +356,7 @@
                   
                   <!-- For downloadable bibtex, uncomment below -->
                   <!-- <a href="bib/kimSIGIR2022.txt">bibtex</a> / -->
-                  <a href="https://github.com/ZhengxiangShi/IngredientParsing">code</a> /
-                  <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    bibtex
-                  </a><div style="DISPLAY: none"><embed src="bib/esann2022.txt"></div>
-                  <p></p>
+                  <a href="https://github.com/ZhengxiangShi/IngredientParsing">code</a>
                   <p>
                     Spin-off research from the Alexa Prize TaskBot Challenge. 
                     Assisting users to cook is one of these tasks that are expected to be solved by intelligent assistants, 
@@ -298,8 +365,6 @@
                   </p>
                 </td>
               </tr>
-              
-              
 
             </tbody>
           </table>
@@ -307,88 +372,6 @@
 
         <hr style="width:100%;text-align:left;margin-left:0">
 
-        <div id="preprints">
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-            <tbody>
-            <tr>
-              <td>
-                <heading><b>Preprints</b></heading>
-              </td>
-            </tr>
-            </tbody>
-          </table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-
-              <!-- Diffusion Survey -->
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src='images/diffusion-survey.png' width="200" height="200">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2306.04139">
-                    <papertitle>A Comprehensive Survey on Generative Diffusion Models for Structured Data</papertitle>
-                  </a>
-                  <br>
-                  Heejoon Koo, <strong>To Eun Kim</strong>
-                  <br>
-                  <a href="https://arxiv.org/abs/2306.04139">arXiv</a> /
-                  
-                  <!-- For downloadable bibtex, uncomment below -->
-                  <!-- <a href="bib/kimSIGIR2022.txt">bibtex</a> / -->
-                  <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    bibtex
-                  </a><div style="DISPLAY: none"><embed src="bib/diffusion-survey.txt"></div>
-                  <p>
-                    There is still a lack of literature and its reviews on structured data modelling via diffusion models, compared to other data modalities such as visual and textual data. 
-                    To address this gap, we present a comprehensive review of recently proposed diffusion models in the field of structured data. 
-                    First, this survey provides a concise overview of the score-based diffusion model theory, 
-                      subsequently proceeding to the technical descriptions of the majority of pioneering works that used structured data in both data-driven general tasks and domain-specific applications. 
-                    Thereafter, we analyse and discuss the limitations and challenges shown in existing works and suggest potential research directions. 
-                  </p>
-                </td>
-              </tr>
-
-
-              <!-- IGLU challenge -->
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src='images/iglu-chall.png' width="200" height="200">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2305.05754">
-                    <papertitle>When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution</papertitle>
-                  </a>
-                  <br>
-                  Z. Shi*, J. Ramos*, <strong>To Eun Kim</strong>, X. Wang, H. Rahmani,
-                  <a href="https://aldolipani.com">Aldo Lipani</a>
-                  <br>
-                  * denotes equal contribution. <br>
-                  <a href="https://arxiv.org/abs/2305.05754">arXiv</a> /
-                  
-                  <!-- For downloadable bibtex, uncomment below -->
-                  <!-- <a href="bib/kimSIGIR2022.txt">bibtex</a> / -->
-                  <a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
-                    bibtex
-                  </a><div style="DISPLAY: none"><embed src="bib/iglu-challenge.txt"></div>
-                  <p>
-                    In the NeurIPS 2022 IGLU Challenge NLP Task, we address two key research questions: 1) when should the agent ask for clarification, and 
-                    2) what clarification questions should it ask.
-                    In this report, we briefly introduce our methods for the classification and ranking task. 
-                    For the classification task, our model achieves an F1 score of 0.757, which placed the 3rd on the leaderboard. 
-                    For the ranking task, our model achieves about 0.38 for Mean Reciprocal Rank by extending the traditional ranking model. 
-                    Lastly, we discuss various neural approaches for the ranking task and future direction.
-                  </p>
-                </td>
-              </tr>
-              
-              
-
-            </tbody>
-          </table>
-        </div>
-
-        <hr style="width:100%;text-align:left;margin-left:0">
 
         <!-- Presentations Section -->
         <div id="presentations">
@@ -504,7 +487,7 @@
                   <ul>
                     <li>CEGE0096: Geospatial Programming (Fall 2022)
                       <ul>
-                        <li>Coursework marking automation <a href="">[interesting solution in my blog post]</a></li>
+                        <li>Coursework marking automation</li>
                       </ul>
                     </li>
                     <li>CEGE0004: Machine Learning for Data Science (Spring 2023)</li>
