@@ -142,7 +142,7 @@
                 <p>
                   <b>Current Research</b>:
                   <ul>
-                    <li>Retrieval-Enhanced Machine Learning (REML) or RAG</li>
+                    <li>Retrieval-Enhanced Machine Learning (REML) and RAG</li>
                     <li>Tip of the tonuge (known-item) retrieval</li>
                     <!-- <li>Response Ranking/Selection with Conversational Look-Ahead that optimizes user satisfaction</li>
                     <li>Evaluation of Conversational System by User Simulation</li>
@@ -189,6 +189,32 @@
           </table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+              <!-- TOT Elicitation -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src='images/tot-elicitation.png' width="200" height="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2502.17776">
+                    <papertitle>Tip of the Tongue Query Elicitation for Simulated Evaluation</papertitle>
+                  </a>
+                  <br>
+                  Yifan He<sup>*</sup>, <strong>To Eun Kim<sup>*</sup></strong>, Fernando Diaz, Jaime Arguello, Bhaskar Mitra
+                  <br>
+                  Preprint, 2024
+                  <br>
+                  <a href="https://arxiv.org/abs/2502.17776">arXiv</a> / 
+                  <a href="https://github.com/kimdanny/llm-tot-query-elicitation">LLM-Elicitation Code</a> /
+                  <a href="https://github.com/kimdanny/human-tot-query-elicitation-mturk">Human-Elicitation Interface Code</a>
+                  <p>
+                    We introduce methods for eliciting TOT queries using large language models (LLMs) and human participants, enabling scalable and systematic evaluation of TOT retrieval systems. 
+                    Our LLM-based simulator generates synthetic TOT queries that align well with human-created ones, while our human elicitation interface uses visual stimuli to induce the TOT state. 
+                    These approaches reduce reliance on community question-answering data and expand query coverage to new domains. 
+                    Our LLM-elicited queries are featured in the TREC 2024 TOT track, with the inclusion of human-elicited queries scheduled for TREC 2025. 
+                  </p>
+                </td>
+              </tr>
               
               <!-- Fair RAG -->
               <tr>
@@ -207,17 +233,9 @@
                   <a href="https://arxiv.org/abs/2409.11598">arXiv</a> / 
                   <a href="https://github.com/kimdanny/Fair-RAG">code</a>
                   <p>
-                    Many language models now enhance their responses with retrieval capabilities, leading to the widespread adoption of retrieval-augmented generation (RAG) systems. 
-                    However, despite retrieval being a core component of RAG, much of the research in this area overlooks the extensive body of work on fair ranking, 
-                    neglecting the importance of considering all stakeholders involved. 
-                    This paper presents the first systematic evaluation of RAG systems integrated with fair rankings. 
-                    We focus specifically on measuring the fair exposure of each relevant item across the rankings utilized by RAG systems (i.e., item-side fairness), 
-                    aiming to promote equitable growth for relevant item providers. 
-                    To gain a deep understanding of the relationship between item-fairness, ranking quality, and generation quality in the context of RAG, 
-                    we analyze nine different RAG systems that incorporate fair rankings across seven distinct datasets. 
-                    Our findings indicate that RAG systems with fair rankings can maintain a high level of generation quality and, in many cases, even outperform traditional RAG systems, 
-                    despite the general trend of a tradeoff between ensuring fairness and maintaining system-effectiveness. 
-                    We believe our insights lay the groundwork for responsible and equitable RAG systems and open new avenues for future research.
+                    We conduct the first comprehensive study of fairness-aware ranking in RAG systems, focusing on both ranking fairness and attribution fairness—ensuring balanced exposure of retrieved documents and equitable crediting of sources. 
+                    Analyzing 12 RAG models across 7 tasks, we find that fairness-aware retrieval often maintains or enhances both ranking effectiveness and generation quality. 
+                    Our results highlight the importance of item-side fairness in retrieval and generation, providing key insights for building more responsible and equitable RAG systems.
                   </p>
                 </td>
               </tr>
@@ -421,7 +439,7 @@
               <!-- KG@ATI -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src="images/ATI.png" width="160" height="160">
+                  <img src="images/logos/ATI.png" width="160" height="160">
                 </td>
                 <td width="75%" valign="center">
                   <ul>
@@ -500,10 +518,27 @@
           <table width="100%" align="center" border="0" cellpadding="20">
             <tbody>
 
+              <!-- At CMU -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src="images/logos/cmu-wordmark.png" width="160" height="160">
+                </td>
+                <td width="75%" valign="center">
+                  
+                  <!-- Mentoring -->
+                  <b>Mentoring</b>
+                  <ul>
+                    <li>CMU Paths to AI (undergraduate AI mentoring)</li>
+                    <li>Graduate Application Support Program</li>
+                  </ul>
+
+                </td>
+              </tr>
+
               <!-- At UCL -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src="images/ucl-logo.png" width="160" height="160">
+                  <img src="images/logos/ucl-logo.png" width="160" height="160">
                 </td>
                 <td width="75%" valign="center">
                   
@@ -540,7 +575,7 @@
               <!-- UCL AI Society -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src="images/ucl-ai-soc.png" width="160" height="160">
+                  <img src="images/logos/ucl-ai-soc.png" width="160" height="160">
                 </td>
                 <td width="75%" valign="center">
                   <a href="https://github.com/UCLAIS"><b>UCL Artificial Intelligence Society</b></a>
