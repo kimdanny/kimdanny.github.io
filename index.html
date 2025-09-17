@@ -36,7 +36,7 @@
               <tr style="padding:0px">
                 <td style="padding:20px;width:70%;vertical-align:middle">
                   <p style="text-align:center">
-                    <name>Danny To Eun Kim</name> 
+                    <name>(Danny) To Eun Kim</name> 
                     <br>김도은
                     <br>toeunkim{at}cmu{dot}edu
                     <div class="responsive-text">
@@ -113,10 +113,10 @@
                   <br><br>
                   <a href="#research">Research</a> &nbsp/&nbsp
                   <a href="#publications">Publications</a> &nbsp/&nbsp
-                  <br>
-                  <a href="#presentations">Presentations & Workshops</a> &nbsp/&nbsp
-                  <br>
-                  <a href="#teaching">Teaching & Mentoring</a> &nbsp/&nbsp
+                  <!-- <br> -->
+                  <!-- <a href="#presentations">Presentations & Workshops</a> &nbsp/&nbsp
+                  <br> -->
+                  <a href="#teaching">Teaching & Mentoring</a>
               </td>
             </tr>
           </tbody>
@@ -137,15 +137,51 @@
                 </p> -->
 
                 <p>
-                  <b>Current Research</b>:
                   <ul>
+                    <!-- #1 -->
                     <li>Retrieval-Enhanced Machine Learning (REML) and RAG</li>
-                    <li>Tip of the tonuge (known-item) retrieval</li>
-                    <!-- <li>Response Ranking/Selection with Conversational Look-Ahead that optimizes user satisfaction</li>
-                    <li>Evaluation of Conversational System by User Simulation</li>
-                    <li>Interactive Grounded Language Understanding - Asking Clarification Questions</li> -->
-                    <!-- <li>Use of Knowledge Graphs in Conversational Search Systems</li> -->
-                    <!-- <li>Extracting multimodal information from text: focusing on underresearched sense</li> -->
+                    <ul>
+                      <li>REML Framework: </li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2407.12982">[Survey]</a> <a href="https://dl.acm.org/doi/10.1145/3673791.3698439">[SIGIR-AP'24 Tutorial]</a> <a href="https://dl.acm.org/doi/10.1145/3726302.3731695">[SIGIR'25 Tutorial]</a></li>
+                      </ul>
+                      <li>Efficient and Effective RAG: </li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2506.13743">[SIGIR'25 LiveRAG]</a> <a href="https://www.arxiv.org/abs/2506.15862">[EMNLP'25]</a></li>
+                      </ul>
+                    </ul>
+                    <!-- #2 -->
+                    <li>Real-World AI Systems</li>
+                    <ul>
+                      <li>Data Provider Retention and Attribution: </li>
+                      <ul>
+                        <li><a href="https://dl.acm.org/doi/10.1145/3731120.3744599">[ICTIR'25]</a></li>
+                      </ul>
+                      <li>Advertisement in Conversational Search:</li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2507.00509">[CLEF'25 Touché Lab]</a></li>
+                      </ul>
+                      <li>Full-Stack Chatbot Development:</li>
+                      <ul>
+                        <li><a href="https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots">[Alexa Prize TaskBot Challenge'21]</a></li>
+                      </ul>
+                      <li>Asking Clarifying Questions:</li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2305.05754">[NeurIPS'22 IGLU Competition]</a></li>
+                      </ul>
+                    </ul>
+                    <!-- #3 -->
+                    <li>Simulated Evaluation and Benchmarking of AI Systems</li>
+                    <ul>
+                      <li>User/Query Simulation:</li>
+                      <ul>
+                        <li><a href="https://dl.acm.org/doi/10.1145/3726302.3730335">[SIGIR'25]</a> <a href="https://dl.acm.org/doi/abs/10.1145/3477495.3531814">[SIGIR'22]</a></li>
+                      </ul>
+                      <li>Tip of the Tongue Retrieval:</li>
+                      <ul>
+                        <li>[NTCIR-19] [TREC'25] <a href="https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf">[TREC'24]</a></li>
+                      </ul>
+                    </ul>
                   </ul>
                 </p>
 
@@ -160,11 +196,6 @@
                     </li>
                   </ul>
                 </p>
-
-                <!-- <p>
-                  Research Statement
-                  Research Proposals
-                </p> -->
               </td>
             </tr>
             </tbody>
@@ -493,7 +524,7 @@
 
 
         <!-- Presentations Section -->
-        <div id="presentations">
+        <!-- <div id="presentations">
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tbody>
             <tr>
@@ -506,7 +537,6 @@
           <table width="100%" align="center" border="0" cellpadding="20">
             <tbody>
 
-              <!-- KG@ATI -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
                   <img src="images/logos/ATI.png" width="160" height="160">
@@ -514,7 +544,6 @@
                 <td width="75%" valign="center">
                   <ul>
                     <li>
-                      <!-- ToM -->
                       <b>Can Dialogue Systems Have Theory-of-Mind Ability?</b>
                       <br>
                       Presented at the <a href="https://www.turing.ac.uk/research/interest-groups/natural-language-processing">NLP Interest Group</a>
@@ -528,7 +557,6 @@
                     <br>
 
                     <li>
-                      <!-- PKG -->
                       <b>Personal Knowledge Graphs: Towards Better Conversational Assistants</b>
                       <br>
                       Presented at the 5th Meet-up of <a href="https://www.turing.ac.uk/research/interest-groups/knowledge-graphs">Knowledge Graphs Interest Group</a>
@@ -542,7 +570,6 @@
                 </td>
               </tr>
               
-              <!-- SCAI workshop -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
                   <img src="images/scai2022.png" width="160" height="160">
@@ -558,21 +585,12 @@
                   <a href="https://drive.google.com/file/d/1SuJOeeH8am0WQ4Upp3e-GyEFhlJz1sAY/view">Slides</a>
                 </td>
               </tr>
-              
-              <!-- <tr>
-                <td align="center" style="padding:20px;width:25%;vertical-align:middle">
-                  <heading>Basically <br> Blog Posts</heading>
-                </td>
-                <td width="75%" valign="middle">
-                  blah blah
-                </td>
-              </tr> -->
             
             </tbody>
           </table>
         </div>
 
-        <hr style="width:100%;text-align:left;margin-left:0">
+        <hr style="width:100%;text-align:left;margin-left:0"> -->
 
         <!-- Teaching and Society Section -->
         <div id="teaching">
