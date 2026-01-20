@@ -1,0 +1,42 @@
+{
+  "predictions": {
+    "intrasentence": {
+      "gender": {
+        "Count": 2313.0,
+        "LM Score": 25.26779927505814,
+        "SS Score": 42.97439277641676,
+        "ICAT Score": 21.717366612840145
+      },
+      "profession": {
+        "Count": 7194.0,
+        "LM Score": 28.089188668892767,
+        "SS Score": 43.24115960743238,
+        "ICAT Score": 24.292181809497464
+      },
+      "race": {
+        "Count": 8928.0,
+        "LM Score": 29.45015769632065,
+        "SS Score": 44.43698098173102,
+        "ICAT Score": 26.173521949207604
+      },
+      "religion": {
+        "Count": 741.0,
+        "LM Score": 21.639443115465856,
+        "SS Score": 43.48100630698579,
+        "ICAT Score": 18.818095251664623
+      },
+      "overall": {
+        "Count": 6392.0,
+        "LM Score": 28.13505688502281,
+        "SS Score": 43.77538865975163,
+        "ICAT Score": 24.63246100212189
+      }
+    },
+    "overall": {
+      "Count": 6392.0,
+      "LM Score": 28.13505688502281,
+      "SS Score": 43.77538865975163,
+      "ICAT Score": 24.63246100212189
+    }
+  }
+}

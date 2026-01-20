@@ -1,0 +1,60 @@
+{
+  "predictionsStereoSet_Mamba": {
+    "intrasentence": {
+      "gender": {
+        "Count": 2313.0,
+        "LM Score": 56.85044177554172,
+        "SS Score": 54.24604163304812,
+        "ICAT Score": 52.02265492281916,
+        "LM Balanced": 86.29911644891656,
+        "SS Balanced": 91.50791673390376,
+        "ICAT Balanced": 95.95469015436169
+      },
+      "profession": {
+        "Count": 7194.0,
+        "LM Score": 58.22911036831927,
+        "SS Score": 53.57547037732805,
+        "ICAT Score": 54.06518118391744,
+        "LM Balanced": 83.54177926336146,
+        "SS Balanced": 92.8490592453439,
+        "ICAT Balanced": 91.86963763216512
+      },
+      "race": {
+        "Count": 8928.0,
+        "LM Score": 43.134774136860266,
+        "SS Score": 52.69148672779358,
+        "ICAT Score": 40.8128406949456,
+        "LM Balanced": 86.26954827372053,
+        "SS Balanced": 94.61702654441284,
+        "ICAT Balanced": 81.6256813898912
+      },
+      "religion": {
+        "Count": 741.0,
+        "LM Score": 58.00523375606802,
+        "SS Score": 52.97016608041203,
+        "ICAT Score": 54.55953020029514,
+        "LM Balanced": 83.98953248786395,
+        "SS Balanced": 94.05966783917594,
+        "ICAT Balanced": 90.88093959940971
+      },
+      "overall": {
+        "Count": 6392.0,
+        "LM Score": 51.0016932548959,
+        "SS Score": 53.22331850378244,
+        "ICAT Score": 47.713799223041065,
+        "LM Balanced": 97.9966134902082,
+        "SS Balanced": 93.55336299243513,
+        "ICAT Balanced": 95.42759844608213
+      }
+    },
+    "overall": {
+      "Count": 6392.0,
+      "LM Score": 51.0016932548959,
+      "SS Score": 53.22331850378244,
+      "ICAT Score": 47.713799223041065,
+      "LM Balanced": 97.9966134902082,
+      "SS Balanced": 93.55336299243513,
+      "ICAT Balanced": 95.42759844608213
+    }
+  }
+}

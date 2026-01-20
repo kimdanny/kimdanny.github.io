@@ -1,0 +1,48 @@
+{
+  "predictionsStereoSet_PythiaFT": {
+    "intrasentence": {
+      "gender": {
+        "Count": 2313.0,
+        "Perplexity": 711476.4922419089,
+        "LM Score": 44.960471228662136,
+        "SS Balanced": 98.28459404996137,
+        "ICAT Score": 44.189216630040264
+      },
+      "profession": {
+        "Count": 7194.0,
+        "Perplexity": 652924.8662794521,
+        "LM Score": 42.41233036706657,
+        "SS Balanced": 95.66233202223431,
+        "ICAT Score": 40.572624294110135
+      },
+      "race": {
+        "Count": 8928.0,
+        "Perplexity": 709523.0966841162,
+        "LM Score": 42.22186364188936,
+        "SS Balanced": 82.51358111654683,
+        "ICAT Score": 34.83877170506817
+      },
+      "religion": {
+        "Count": 741.0,
+        "Perplexity": 958119.0061028209,
+        "LM Score": 41.1490627981173,
+        "SS Balanced": 93.79097101875499,
+        "ICAT Score": 38.59410556347149
+      },
+      "overall": {
+        "Count": 6392.0,
+        "Perplexity": 695091.3544434119,
+        "LM Score": 42.59229763062979,
+        "SS Balanced": 89.77810375553106,
+        "ICAT Score": 38.23855715869141
+      }
+    },
+    "overall": {
+      "Count": 6392.0,
+      "Perplexity": 695091.3544434119,
+      "LM Score": 42.59229763062979,
+      "SS Balanced": 89.77810375553106,
+      "ICAT Score": 38.23855715869141
+    }
+  }
+}

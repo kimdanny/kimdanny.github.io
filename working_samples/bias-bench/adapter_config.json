@@ -1,0 +1,22 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "EleutherAI/pythia-2.8b",
+  
+  
+  "inference_mode": true,
+
+  "peft_type": "LORA",
+
+  "rank_pattern": {},
+  "revision": null,
+  "target_modules": [
+    "dense",
+    "dense_h_to_4h",
+    "query_key_value",
+    "dense_4h_to_h"
+  ],
+  "task_type": "CAUSAL_LM",
+  "trainable_token_indices": null,
+  "use_dora": false,
+  "use_rslora": false
+}

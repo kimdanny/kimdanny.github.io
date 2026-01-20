@@ -1,0 +1,48 @@
+{
+  "predictions_stereoset_transformerpp": {
+    "intrasentence": {
+      "gender": {
+        "Count": 2313.0,
+        "Perplexity": 123.12897975769302,
+        "LM Score": 92.50776140909825,
+        "SS Balanced": 64.64017136176057,
+        "ICAT Score": 59.79717549776972
+      },
+      "profession": {
+        "Count": 7194.0,
+        "Perplexity": 105.70093501180664,
+        "LM Score": 91.89695082260748,
+        "SS Balanced": 71.95064976917706,
+        "ICAT Score": 66.1204532349272
+      },
+      "race": {
+        "Count": 8928.0,
+        "Perplexity": 98.5169933768836,
+        "LM Score": 92.53706413892309,
+        "SS Balanced": 70.13591193786453,
+        "ICAT Score": 64.90171381436032
+      },
+      "religion": {
+        "Count": 741.0,
+        "Perplexity": 151.70162290454948,
+        "LM Score": 93.57856629516499,
+        "SS Balanced": 68.40663879348841,
+        "ICAT Score": 64.01395183365861
+      },
+      "overall": {
+        "Count": 6392.0,
+        "Perplexity": 104.90524917570525,
+        "LM Score": 92.33410644901824,
+        "SS Balanced": 70.06521247189605,
+        "ICAT Score": 64.6940878675313
+      }
+    },
+    "overall": {
+      "Count": 6392.0,
+      "Perplexity": 104.90524917570525,
+      "LM Score": 92.33410644901824,
+      "SS Balanced": 70.06521247189605,
+      "ICAT Score": 64.6940878675313
+    }
+  }
+}

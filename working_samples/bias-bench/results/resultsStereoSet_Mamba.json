@@ -1,0 +1,42 @@
+{
+  "predictionsStereoSet_Mamba": {
+    "intrasentence": {
+      "gender": {
+        "Count": 2313.0,
+        "LM Score": 56.85044177554172,
+        "SS Score": 54.24604163304812,
+        "ICAT Score": 52.02265492281916
+      },
+      "profession": {
+        "Count": 7194.0,
+        "LM Score": 58.22911036831927,
+        "SS Score": 53.57547037732805,
+        "ICAT Score": 54.06518118391744
+      },
+      "race": {
+        "Count": 8928.0,
+        "LM Score": 43.134774136860266,
+        "SS Score": 52.69148672779358,
+        "ICAT Score": 40.8128406949456
+      },
+      "religion": {
+        "Count": 741.0,
+        "LM Score": 58.00523375606802,
+        "SS Score": 52.97016608041203,
+        "ICAT Score": 54.55953020029514
+      },
+      "overall": {
+        "Count": 6392.0,
+        "LM Score": 51.0016932548959,
+        "SS Score": 53.22331850378244,
+        "ICAT Score": 47.713799223041065
+      }
+    },
+    "overall": {
+      "Count": 6392.0,
+      "LM Score": 51.0016932548959,
+      "SS Score": 53.22331850378244,
+      "ICAT Score": 47.713799223041065
+    }
+  }
+}

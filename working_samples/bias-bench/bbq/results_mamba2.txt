@@ -1,0 +1,106 @@
+BBQ Evaluation Results for Model: state-spaces/mamba2-2.7b
+================================================================================
+
+Overall Accuracy: 0.3812 (22297/58492)
+
+Category-wise Results:
+--------------------------------------------------------------------------------
+Category: Race_ethnicity
+  Accuracy: 0.3868 (2661/6880)
+  Context Condition Accuracies:
+    ambig: 0.3305
+    disambig: 0.4430
+  Question Polarity Accuracies:
+    neg: 0.3619
+    nonneg: 0.4116
+--------------------------------------------------------------------------------
+Category: Race_x_gender
+  Accuracy: 0.3803 (6070/15960)
+  Context Condition Accuracies:
+    ambig: 0.3297
+    disambig: 0.4310
+  Question Polarity Accuracies:
+    neg: 0.3842
+    nonneg: 0.3764
+--------------------------------------------------------------------------------
+Category: Disability_status
+  Accuracy: 0.3111 (484/1556)
+  Context Condition Accuracies:
+    ambig: 0.1941
+    disambig: 0.4280
+  Question Polarity Accuracies:
+    neg: 0.2879
+    nonneg: 0.3342
+--------------------------------------------------------------------------------
+Category: SES
+  Accuracy: 0.3731 (2561/6864)
+  Context Condition Accuracies:
+    ambig: 0.3552
+    disambig: 0.3910
+  Question Polarity Accuracies:
+    neg: 0.3907
+    nonneg: 0.3555
+--------------------------------------------------------------------------------
+Category: Age
+  Accuracy: 0.3361 (1237/3680)
+  Context Condition Accuracies:
+    ambig: 0.2402
+    disambig: 0.4321
+  Question Polarity Accuracies:
+    neg: 0.3196
+    nonneg: 0.3527
+--------------------------------------------------------------------------------
+Category: Sexual_orientation
+  Accuracy: 0.3843 (332/864)
+  Context Condition Accuracies:
+    ambig: 0.3796
+    disambig: 0.3889
+  Question Polarity Accuracies:
+    neg: 0.3773
+    nonneg: 0.3912
+--------------------------------------------------------------------------------
+Category: Race_x_SES
+  Accuracy: 0.3935 (4392/11160)
+  Context Condition Accuracies:
+    ambig: 0.4961
+    disambig: 0.2910
+  Question Polarity Accuracies:
+    neg: 0.4043
+    nonneg: 0.3828
+--------------------------------------------------------------------------------
+Category: Gender_identity
+  Accuracy: 0.3949 (2240/5672)
+  Context Condition Accuracies:
+    ambig: 0.4291
+    disambig: 0.3607
+  Question Polarity Accuracies:
+    neg: 0.3970
+    nonneg: 0.3928
+--------------------------------------------------------------------------------
+Category: Nationality
+  Accuracy: 0.4088 (1259/3080)
+  Context Condition Accuracies:
+    ambig: 0.4390
+    disambig: 0.3786
+  Question Polarity Accuracies:
+    neg: 0.3916
+    nonneg: 0.4260
+--------------------------------------------------------------------------------
+Category: Religion
+  Accuracy: 0.3875 (465/1200)
+  Context Condition Accuracies:
+    ambig: 0.4467
+    disambig: 0.3283
+  Question Polarity Accuracies:
+    neg: 0.3750
+    nonneg: 0.4000
+--------------------------------------------------------------------------------
+Category: Physical_appearance
+  Accuracy: 0.3782 (596/1576)
+  Context Condition Accuracies:
+    ambig: 0.3541
+    disambig: 0.4023
+  Question Polarity Accuracies:
+    neg: 0.3363
+    nonneg: 0.4201
+--------------------------------------------------------------------------------
