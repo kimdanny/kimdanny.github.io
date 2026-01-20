@@ -1,0 +1,157 @@
+Question,Answer,Answer Type,Hop,Topic,Link
+When did Andrew Carnegie emigrated?,1848,Date,OneHop,1,https://www.cmu.edu/about/history.html
+How much did Andrew Carnegie donated to create Carnegie Technical Schools?,one million,Numeric,OneHop,1,https://www.cmu.edu/about/history.html
+Who got the first doctorate degree in Carnegie Tech?,Mao Yisheng,Person,OneHop,1,https://www.cmu.edu/about/history.html
+Which state is CMU located?,Pennsylvania,Location,OneHop,1,https://www.cmu.edu/about/history.html
+What was the original name of Tepper School of Business?,Graduate School of Industrial Administration,Organization,OneHop,1,https://www.cmu.edu/about/history.html
+Which Carnegie Technical Schools had to close for gender equality?,Margaret Morrison Carnegie College,Organization,MultiHop,1,https://www.cmu.edu/about/history.html
+Which school provides graduate training for public sector work?,H. John Heinz III College,Organization,OneHop,1,https://www.cmu.edu/about/history.html
+When did the merger for Carnegie Tech and Mellon Institute happen?,1967,Date,OneHop,1,https://www.cmu.edu/about/history.html
+Who is the Nobel laurate who also created the Logic Theorist?,Herb Simon,Person,MultiHop,1,https://www.cs.cmu.edu/scs25/25things
+When is C.mmp created?,1971,Date,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+What is the name of the first speech recognition system made by Raj Reddy?,Hearsay I,OtherEntity,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+When was Emoticons invented?,1982,Date,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+Who made the robot that cleaned the Three Mile Island nuclear plant?,Red Whittaker,Person,MultiHop,1,https://www.cs.cmu.edu/scs25/25things
+What is the name of the kernel made by Rick Rashid?,Mach kernel,OtherEntity,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+What is the name of the famous computer language that is made by a graduate student that worked on the Andrew project?,Java,OtherEntity,MultiHop,1,https://www.cs.cmu.edu/scs25/25things
+Which CMU professor helped building CAPTCHA?,Manuel Blum,Person,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+When did Duolingo developed?,2010,Date,MultiHop,1,https://www.cs.cmu.edu/scs25/25things
+Which CMU alumna was awarded with the 2012 Turing Award?,Shafi Goldwasser,Person,OneHop,1,https://www.cs.cmu.edu/scs25/25things
+Who wrote a white paper with Angel Jordan to create the CMU SCS?,Nico Habermann,Person,OneHop,1,https://www.cs.cmu.edu/scs25/history
+Who wrote a white paper with the future first dean of CMU SCS to create the CMU SCS?,Angel Jordan,Person,MultiHop,1,https://www.cs.cmu.edu/scs25/history
+How many departments are there in CMU SCS?,seven,Numeric,OneHop,1,https://www.cs.cmu.edu/scs25/history
+Which SCS department was formed in 1993?,Human-Computer Interaction Institute,Organization,OneHop,1,https://www.cs.cmu.edu/scs25/history
+Which SCS department was formed between 2000 and 2008?,Machine Learning Department,Organization,MultiHop,1,https://www.cs.cmu.edu/scs25/history
+When did IBM 650 computer arrive to CMU?,1956,Date,OneHop,1,https://www.cs.cmu.edu/scs25/history
+"Which has a bigger graduate population, US or international?",International,OtherEntity,MultiHop,1,https://www.cmu.edu/about/cmu_fact_sheet_02.pdf
+"Which has a bigger undergraduate population, US or international?",US,OtherEntity,MultiHop,1,https://www.cmu.edu/about/cmu_fact_sheet_02.pdf
+How many schools and colleges are in CMU?,seven,Numeric,MultiHop,1,https://www.cmu.edu/about/cmu_fact_sheet_02.pdf
+Who is the president of CMU?,Farnam Jahanian,Person,OneHop,1,https://www.cmu.edu/about/cmu_fact_sheet_02.pdf
+What other name is known for the CMU Buggy Races?,Sweepstakes,OtherEntity,OneHop,1,https://www.cmu.edu/news/stories/archives/2019/april/spring-carnival-buggy.html
+How many pushers are needed for the Sweepstakes?,five,Numeric,OneHop,1,https://www.cmu.edu/news/stories/archives/2019/april/spring-carnival-buggy.html
+Which class is offered in the Fall by the author of ESPnet?,Speech Recognition and Understanding,OtherEntity,MultiHop,2,
+Who was the founder of CMU?,Andrew Carnegie,Person,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+When did Carnegie Technical Schools became known as the Carnegie Institute of Technology? ,1912,Date,MultiHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+How many name changes did the institution undergo before becoming Carnegie Mellon University?,two,Numeric,MultiHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+"Before becoming Carnegie Mellon University, what was the last name of the institution?",Carnegie Institute of Technology,Organization,MultiHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What are Carnegie Mellon athletic teams nicknamed?,Tartans,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+When did CMU officially welcomed its first mascot?,2007,Date,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What are the school colors of CMU?,Cardinal and Gray,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+"Which stadium or gymnasium has the largest capacity, Gesling Stadium, Wiegand Gymnasium, or CMU Soccer Field?",Gesling Stadium,OtherEntity,MultiHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+Who is the Athletic Director of CMU?,Josh Centor,Person,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What is the affiliation of CMU's athletic teams?,NCAA Division III,Organization,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What symbolizes CMU's Scottish heritage in its mascot design?,a plaid scarf and a shield,OtherEntity,MultiHop,2,
+What is the name of CMU's official mascot?,Scotty,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What is the Alma Mater of Farnam Jahanian?,University of Texas at Austin,OtherEntity,MultiHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+Where can you find official CMU tartan items?,Univrtsity Store,Location,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What is tartan usually misrepresented as?,fierce warrior,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+From which country did Andrew Carnegie originate?,Scotland,Location,OneHop,1,https://athletics.cmu.edu/athletics/tartanfacts
+What was Andrew Carnegie's pet?,a Scottish terrier,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/mascot/about
+How long did it take from starting the mascot selection to its official debut?,one year,Date,MultiHop,1,https://athletics.cmu.edu/athletics/mascot/about
+What company had joint efforts of developing the graphics of the CMU mascot?,SME Branding,Organization,OneHop,1,https://athletics.cmu.edu/athletics/mascot/about
+How many people were surveyed in the mascot selection process?,2770,Numeric,MultiHop,1,https://athletics.cmu.edu/athletics/mascot/about
+When did the Kiltie Band begin?,1908,Date,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+What year did the Kiltie Band have its first official performance?,1922,Date,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+Whose birthday was it when the Kiltie Band gave the first performance?,Andrew Carnegie,Person,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+How many times a week does the Kiltie Band rehearse during their concert season?,twice,Numeric,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+Where are the auditions for the Kildie Band?,no auditions are needed,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+What makes up the Kildie Band?,musicians and colorguard,OtherEntity,OneHop,1,https://athletics.cmu.edu/athletics/kiltieband/index
+Is Malihe Alikhani associated with LTI?,yes,YesNo,OneHop,1,https://lti.cmu.edu/people/faculty/index.html
+Is there LTI-associated faculty with the first name Taylor?,yes,YesNo,MultiHop,1,https://lti.cmu.edu/people/faculty/index.html
+Which university is Professor Taylor at LTI working in?,"University of California, San Diego",Organization,MultiHop,1,https://lti.cmu.edu/people/faculty/index.html
+Is Professor Jeffrey at LTI assistant professor?,no,YesNo,MultiHop,1,https://lti.cmu.edu/people/faculty/index.html
+Who is the chair of admissions for LTI?,Ralf Brown,Person,OneHop,1,https://lti.cmu.edu/people/faculty/index.html
+Is the LTI director tenured?,yes,YesNo,MultiHop,1,https://lti.cmu.edu/people/faculty/index.html
+What is the position of Prof. Kemal Oflazer?,teaching professor,OtherEntity,OneHop,1,https://lti.cmu.edu/people/faculty/index.html
+Which LTI faculty wrote the AudioGPT paper?,Shinji Watanabe,Person,OneHop,2,semantic scholar
+Did Professor Alexander and Shinji wrote a paper together?,Yes,YesNo,MultiHop,1,semantic scholar
+Who is the first author of the ML-SUPERB paper?,Jiatong Shi,Person,OneHop,1,semantic scholar
+Is Daniel last author of the WebArena paper?,No,YesNo,,2,semantic scholar
+Did Prof. Daniel coauthored the WebArena paper?,Yes,YesNo,,2,semantic scholar
+Which LTI faculty was the last author of the WebArena paper?,Graham Neubig,Person,OneHop,2,semantic scholar
+What was the method name in 2023 by Graham about detecting factuality?,FacTool,OtherEntity,MultiHop,1,semantic scholar
+What was the method name in 2023 paper wrote by Graham's student about long-range transformers?,Unlimiformer,OtherEntity,MultiHop,2,semantic scholar
+Which conference did the Unlimiformer published?,NeurIPS,Organization,OneHop,1,semantic scholar
+Which LTI faculty involved in StarCoder paper?,Daniel Fried,Person,OneHop,2,semantic scholar
+Which LTI faculty published in ICML about grounding language models?,Daniel Fried,Person,MultiHop,1,semantic scholar
+Which LTI faculty published in USENIX?,Daphne Ippolito,Person,MultiHop,2,semantic scholar
+"Which LTI faculty is co-authoring in ""Effective Prompt Extraction from Language Models"" paper?",Daphne Ippolito,Person,MultiHop,2,semantic scholar
+"Which LTI student is co-authoring in ""Effective Prompt Extraction from Language Models"" paper?",Yiming Zhang,Person,MultiHop,2,semantic scholar
+Does CMU have classes on labor day?,No,YesNo,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+When does the fall break start in 2023?,October 16th,Date,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+What is the day of the week when the fall break starts?,Monday,Date,MultiHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+When is the last day of class for the fall semester?,December 8th,Date,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+Is CMU open two days after christmas?,No,YesNo,MultiHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+Is reading day available during the final exams week?,Yes,YesNo,MultiHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+When does the summer registration open in 2023?,March 12th,Date,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+In which month does the summer registration open?,March 12th,Date,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+When does the spring carnival starts in 2024?,April 11th,Date,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+Do we have classes during the spring carnival?,No,YesNo,OneHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+How long is the spring carnival?,3 days,Date,MultiHop,1,https://www.cmu.edu/hub/calendar/docs/2324-academic-calendar.pdf
+When does the spring break starts in 2024?,March 4th,Date,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+When does the final exam week start for spring 2024?,May 28th,Date,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+When does the summer registration open in 2024?,March 11th,Date,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the course code for Advanced NLP?,11711,OtherEntity,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the course code for LTI colloquium?,11700,OtherEntity,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is 11700 LTI colloquium?,Yes,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Who teaches the speech AI classes in spring 2024?,Shinji Watanabe,Person,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Does Intro to DL class offer multiple locations?,Yes,YesNo,MutliHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Who takes care of MIIS directed study in spring 2024?,Teruko Mitamura,Person,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+In which time does the search engine class start in spring 2024?,3:30 PM,Date,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Does applied ml class takes in the morning?,Yes,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the course code taught by the WebArena paper's author in spring 2024?,11711,OtherEntity,MutliHop,2,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Does Prof Morency teaches multimodal ML in spring 2024?,No,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Who teaches multimodal ML in spring 2024?,Yonathan Bisk,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the course code for biases in ML?,11830,OtherEntity,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Where does the Subword Modeling class takes place?,PH 100,Location,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is Neural Code Generation taught by a single instructor?,No,YesNo,MutliHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Who teaches neural code generation and involved in Starcoder paper?,Daniel Fried,Person,MutliHop,2,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+"Is ""Advanced Deep Learning"" class taught by an LTI faculty?",No,YesNo,OneHop,2,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is the professor that taught Multimodal ML in fall 2023 on leave now?,Yes,YesNo,MultiHop,2,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is the professor that taught Multimodal ML in spring 2024 on leave now?,No,YesNo,MultiHop,2,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+"Does LTI offer ""Software Management Capstone Project""?",No,YesNo,MultiHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is Human Language for AI offered in the morning in fall 2023?,No,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Is Human Language for AI offered at noon in fall 2023?,Yes,YesNo,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Who taught Human Language for AI in fall 2023?,Lorraine Levin,Person,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+Where do I have to go for Human Language for AI in fall 2023?,WEH 5409,Location,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What class did Lorraine Levin taught in fall 2023?,Human Language for Artificial Intelligence,OtherEntity,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the course code for on-device ML?,11767,OtherEntity,OneHop,1,https://enr-apps.as.cmu.edu/open/SOC/SOCServlet/completeSchedule
+What is the number of masters program offered by the CMU?,4,Numeric,MultiHop,1,https://lti.cs.cmu.edu/academics/index.html
+What is the shorthand for Master of Computational Data Science?,MCDS,OtherEntity,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Is MCDS offered in CMU LTI?,Yes,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Is MSML offered in CMU LTI?,No,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+What is the masters program in LTI most centric to research?,MLT,OtherEntity,MultiHop,1,https://lti.cs.cmu.edu/academics/index.html
+How much course units you have to take to finish the masters program in LTI most centric to research?,120,Numeric,MultiHop,2,https://lti.cs.cmu.edu/academics/index.html
+Does LTI MLT offers directed research?,Yes,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Who do I have to contact for more MLT information?,Kate Schaich,Person,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Is RAships guaranteed for LTI MLT?,No,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Is GRE optional for MLT admissions?,Yes,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+What is the minimum TOEFL score for MLT?,100,Numeric,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Who do I have to contact for more MCDS information?,Jennifer Lucas,Person,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+How many majors does the MCDS program offer?,3,Numeric,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+What is the required number of class units to graduate for MCDS?,144,Numeric,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Is there multiple options for the length of program for MCDS?,Yes,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/index.html
+Does MLT students usually serve as TAs?,No,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+What letter does MLT students have to receive at the end of semester?,Good letter,OtherEntity,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+What is the most serious letter that MLT students receive at the end of semester?,N-1 letter,OtherEntity,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+"Which letter is better, N-1 letter or Good letter?",Good letter,OtherEntity,MultiHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+Is transfers into the MLT program permitted during the first semester?,No,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+Is transfers into the MLT program permitted after the first semester?,Yes,YesNo,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+What is the maximum hours per week for MLT students to consult?,8,Numeric,OneHop,1,https://lti.cs.cmu.edu/academics/masters-programs/files/mlt-student-handbook-2023-2024.pdf
+Does MLT and PhD programs both have the grandfather policy?,Yes,YesNo,MultiHop,2,https://lti.cs.cmu.edu/academics/phd-programs/files/handbook_phd_2023-2024.pdf
+"Which program usually allows external internship, MLT or PhD?",PhD,OtherEntity,MultiHop,2,https://lti.cs.cmu.edu/academics/phd-programs/files/handbook_phd_2023-2024.pdf
+What is the target duration for the LTI PhD program?,5,Numeric,OneHop,1,https://lti.cs.cmu.edu/academics/phd-programs/files/handbook_phd_2023-2024.pdf
+What time does the spring carnival registration start?,8:00 AM,Date,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Where does the Molly's Trolleys tour happen?,Reunion tent,Location,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+What is the cost for the Molly's Trolley tour when I buy the tickets on March 1st?,$30,Numeric,MultiHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+What is the cost for the Molly's Trolley tour when I buy the tickets on Feb 1st?,$25,Numeric,MultiHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Does spring carnival offer VR experience?,Yes,YesNo,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+What is the Scotch'n'Soda Theatre show for this year's carnival?,The Little Mermaid,OtherEntity,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Which date is Buggy Donut Tent available?,April 13th,Date,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Where is Tepper Buggy Tent located?,Frew street,Location,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Where can I see the CMU lunar rovers?,"Midway Activities Tent, The Cut",Location,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+Can I see the CMU lunar rovers for free?,Yes,YesNo,OneHop,1,https://web.cvent.com/event/ab7f7aba-4e7c-4637-a1fc-dd1f608702c4/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce?locale=en
+"What happens in CUC Pillars, April 13th 3PM?",Doc Costume Party,OtherEntity,OneHop,1,https://www.cmu.edu/commencement/schedule/index.html
+When does the commencement happen at CMU?,May 12,Date,OneHop,1,https://www.cmu.edu/commencement/schedule/index.html
+When does the CMU President's Graduates Toast happen?,May 9,Date,OneHop,1,https://www.cmu.edu/commencement/schedule/index.html
+Which building does the Center for Student Diversity and Inclusion Ceremony happen?,Simmons Auditorium,Location,OneHop,1,https://www.cmu.edu/commencement/schedule/index.html

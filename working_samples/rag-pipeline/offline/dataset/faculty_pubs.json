@@ -1,0 +1,845 @@
+{
+    "Yonatan Bisk": [
+        {
+            "url": "http://arxiv.org/pdf/2306.17842",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.11565",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.02412",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.08508",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.10103",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.06117",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.13854",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2303.01502",
+            "status": "CLOSED"
+        }
+    ],
+    "Jamie Callan": [
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3578337.3605125",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3578337.3605131",
+            "status": "BRONZE"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3578337.3605126",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.06983",
+            "status": "GREEN"
+        }
+    ],
+    "Justine Cassell": [
+        {
+            "url": "https://arxiv.org/pdf/2307.15582",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.14696",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://repository.ubn.ru.nl/bitstream/handle/2066/291926/1/291926.pdf",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://aclanthology.org/2022.acl-long.153.pdf",
+            "status": "HYBRID"
+        }
+    ],
+    "Mona T. Diab": [
+        {
+            "url": "http://arxiv.org/pdf/2306.05836",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.acl-long.60.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://aclanthology.org/2023.clinicalnlp-1.55.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://aclanthology.org/2023.nlrse-1.10.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://aclanthology.org/2023.eacl-main.199.pdf",
+            "status": "HYBRID"
+        }
+    ],
+    "Fernando Diaz": [
+        {
+            "url": "http://arxiv.org/pdf/2306.07908",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.14601",
+            "status": "CLOSED"
+        }
+    ],
+    "S. Fahlman": [
+        {
+            "url": "http://arxiv.org/pdf/2305.04154",
+            "status": "GREEN"
+        }
+    ],
+    "Daniel Fried": [
+        {
+            "url": "http://arxiv.org/pdf/2306.08818",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.03988",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.13823",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.06161",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.17216",
+            "status": "GREEN"
+        }
+    ],
+    "Alexander Hauptmann": [
+        {
+            "url": "https://aclanthology.org/2023.findings-acl.198.pdf",
+            "status": "HYBRID"
+        }
+    ],
+    "Daphne Ippolito": [
+        {
+            "url": "https://arxiv.org/pdf/2309.04858",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.13169",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.13188",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.15447",
+            "status": "CLOSED"
+        }
+    ],
+    "Lori S. Levin": [],
+    "Lei Li": [
+        {
+            "url": "https://aclanthology.org/2023.americasnlp-1.19.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2304.04675",
+            "status": "GREEN"
+        }
+    ],
+    "T. Mitamura": [
+        {
+            "url": "https://aclanthology.org/2023.dialdoc-1.11.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.04197",
+            "status": "CLOSED"
+        }
+    ],
+    "Louis-Philippe Morency": [
+        {
+            "url": "https://arxiv.org/pdf/2302.12247",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.16413",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14728",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614115",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614136",
+            "status": "BRONZE"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14083",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14577",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614171",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614151",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.04539",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3577190.3614118",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2306.04898",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.05268",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.04597",
+            "status": "CLOSED"
+        }
+    ],
+    "David R. Mortensen": [
+        {
+            "url": "https://arxiv.org/pdf/2309.07423",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.13707",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.sigmorphon-1.22.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.02178",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://aclanthology.org/2023.sigmorphon-1.7.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.01896",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2304.02541",
+            "status": "CLOSED"
+        }
+    ],
+    "Graham Neubig": [
+        {
+            "url": "http://arxiv.org/pdf/2302.05738",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14716",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.07867",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.05527",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.06804",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.13410",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.findings-acl.537.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2303.16750",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.00955",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.13528",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2307.00524",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.11789",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2310.07081",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.02828",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.18185",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.16636",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.16171",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2310.01387",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.01625",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.12261",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.04507",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.07286",
+            "status": "GREEN"
+        }
+    ],
+    "Eric Nyberg": [
+        {
+            "url": "https://aclanthology.org/2023.eacl-demo.18.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.02998",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.03130",
+            "status": "GREEN"
+        }
+    ],
+    "B. Raj": [
+        {
+            "url": "https://arxiv.org/pdf/2304.02135",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.09613",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.10921",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.03956",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aaai.12104",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://www.cell.com/article/S2405844023050739/pdf",
+            "status": "GOLD"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.08217",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.00891",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.13948",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2302.08095",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2303.09048",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2303.03591",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.00854",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.12715",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.13953",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.15700",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.19406",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2302.08088",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.09719",
+            "status": "GREEN"
+        }
+    ],
+    "C. Ros\u00e9": [
+        {
+            "url": "https://www.tandfonline.com/doi/pdf/10.1080/17439884.2023.2189735?needAccess=true&role=button",
+            "status": "BRONZE"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.03823",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.acl-long.834.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://aclanthology.org/2023.bea-1.20.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/26899/26671",
+            "status": "GOLD"
+        }
+    ],
+    "Alexander I. Rudnicky": [
+        {
+            "url": "https://arxiv.org/pdf/2309.07412",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.15103",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.04215",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2306.12794",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3539618.3592010",
+            "status": "HYBRID"
+        }
+    ],
+    "Maarten Sap": [
+        {
+            "url": "http://arxiv.org/pdf/2305.14246",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.01985",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.acl-demo.36.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://aclanthology.org/2023.emnlp-main.701.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.13589",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.14718",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.17174",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.01943",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14755",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arrow.tudublin.ie/context/scschcomcon/article/1430/viewcontent/Queer_In_AI___A_Case_Study_in_Community_Led_Participatory_AI.pdf",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.00779",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14763",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2303.16173",
+            "status": "CLOSED"
+        }
+    ],
+    "Rita Singh": [
+        {
+            "url": "https://www.mdpi.com/1099-4300/25/6/897/pdf?version=1685718244",
+            "status": "GOLD"
+        },
+        {
+            "url": "https://www.mdpi.com/1099-4300/25/7/1039/pdf?version=1689132568",
+            "status": "GOLD"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.11834",
+            "status": "CLOSED"
+        }
+    ],
+    "Emma Strubell": [
+        {
+            "url": "https://arxiv.org/pdf/2310.07715",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.emnlp-main.161.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.16900",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.sustainlp-1.10.pdf",
+            "status": "HYBRID"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.09701",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2307.00101",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2310.05674",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.00131",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.12634",
+            "status": "CLOSED"
+        }
+    ],
+    "A. Waibel": [
+        {
+            "url": "https://arxiv.org/pdf/2306.05320",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.11380",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.11379",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2308.03415",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://aclanthology.org/2023.iwslt-1.1.pdf",
+            "status": "HYBRID"
+        }
+    ],
+    "Shinji Watanabe": [
+        {
+            "url": "https://arxiv.org/pdf/2309.15317",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2306.01247",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.08876",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.10615",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2302.14132",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.11095",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.11073",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2304.06795",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.20054",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.14922",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.09099",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2303.07624",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.13331",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.12231",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.09510",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2302.06774",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.08531",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2304.04618",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2304.12995",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.17352",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.07937",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2301.12596",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2302.12829",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.17384",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.01194",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.01620",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.15800",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2305.00926",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.15686",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.08348",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.13876",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2306.13734",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.15826",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2304.04596",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.07928",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://ieeexplore.ieee.org/ielx7/6570655/6633080/10301513.pdf",
+            "status": "BRONZE"
+        },
+        {
+            "url": "https://repository.tudelft.nl/islandora/object/uuid%3A3e54aaa0-46f8-4411-a5ca-351a314d73ce/datastream/OBJ/download",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.17651",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.10787",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.07455",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2307.02471",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.15674",
+            "status": "CLOSED"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2306.01084",
+            "status": "CLOSED"
+        }
+    ],
+    "S. Welleck": [
+        {
+            "url": "http://arxiv.org/pdf/2303.17651",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.15065",
+            "status": "CLOSED"
+        }
+    ],
+    "E. Xing": [
+        {
+            "url": "http://arxiv.org/pdf/2306.07916",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2303.10598",
+            "status": "GREEN"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2306.05685",
+            "status": "GREEN"
+        }
+    ],
+    "Chenyan Xiong": [
+        {
+            "url": "https://arxiv.org/pdf/2308.14029",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2305.14685",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3539618.3591813",
+            "status": "HYBRID"
+        }
+    ],
+    "Yiming Yang": [
+        {
+            "url": "https://arxiv.org/pdf/2308.06644",
+            "status": "GREEN"
+        },
+        {
+            "url": "http://arxiv.org/pdf/2302.08224",
+            "status": "CLOSED"
+        },
+        {
+            "url": "https://arxiv.org/pdf/2309.14525",
+            "status": "CLOSED"
+        }
+    ]
+}

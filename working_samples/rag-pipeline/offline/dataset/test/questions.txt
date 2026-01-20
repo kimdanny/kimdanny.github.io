@@ -1,0 +1,156 @@
+When did Andrew Carnegie emigrated?
+How much did Andrew Carnegie donated to create Carnegie Technical Schools?
+Who got the first doctorate degree in Carnegie Tech?
+Which state is CMU located?
+What was the original name of Tepper School of Business?
+Which Carnegie Technical Schools had to close for gender equality?
+Which school provides graduate training for public sector work?
+When did the merger for Carnegie Tech and Mellon Institute happen?
+Who is the Nobel laurate who also created the Logic Theorist?
+When is C.mmp created?
+What is the name of the first speech recognition system made by Raj Reddy?
+When was Emoticons invented?
+Who made the robot that cleaned the Three Mile Island nuclear plant?
+What is the name of the kernel made by Rick Rashid?
+What is the name of the famous computer language that is made by a graduate student that worked on the Andrew project?
+Which CMU professor helped building CAPTCHA?
+When did Duolingo developed?
+Which CMU alumna was awarded with the 2012 Turing Award?
+Who wrote a white paper with Angel Jordan to create the CMU SCS?
+Who wrote a white paper with the future first dean of CMU SCS to create the CMU SCS?
+How many departments are there in CMU SCS?
+Which SCS department was formed in 1993?
+Which SCS department was formed between 2000 and 2008?
+When did IBM 650 computer arrive to CMU?
+Which has a bigger graduate population, US or international?
+Which has a bigger undergraduate population, US or international?
+How many schools and colleges are in CMU?
+Who is the president of CMU?
+What other name is known for the CMU Buggy Races?
+How many pushers are needed for the Sweepstakes?
+Which class is offered in the Fall by the author of ESPnet?
+Who was the founder of CMU?
+When did Carnegie Technical Schools became known as the Carnegie Institute of Technology? 
+How many name changes did the institution undergo before becoming Carnegie Mellon University?
+Before becoming Carnegie Mellon University, what was the last name of the institution?
+What are Carnegie Mellon athletic teams nicknamed?
+When did CMU officially welcomed its first mascot?
+What are the school colors of CMU?
+Which stadium or gymnasium has the largest capacity, Gesling Stadium, Wiegand Gymnasium, or CMU Soccer Field?
+Who is the Athletic Director of CMU?
+What is the affiliation of CMU's athletic teams?
+What symbolizes CMU's Scottish heritage in its mascot design?
+What is the name of CMU's official mascot?
+What is the Alma Mater of Farnam Jahanian?
+Where can you find official CMU tartan items?
+What is tartan usually misrepresented as?
+From which country did Andrew Carnegie originate?
+What was Andrew Carnegie's pet?
+How long did it take from starting the mascot selection to its official debut?
+What company had joint efforts of developing the graphics of the CMU mascot?
+How many people were surveyed in the mascot selection process?
+When did the Kiltie Band begin?
+What year did the Kiltie Band have its first official performance?
+Whose birthday was it when the Kiltie Band gave the first performance?
+How many times a week does the Kiltie Band rehearse during their concert season?
+Where are the auditions for the Kildie Band?
+What makes up the Kildie Band?
+Is Malihe Alikhani associated with LTI?
+Is there LTI-associated faculty with the first name Taylor?
+Which university is Professor Taylor at LTI working in?
+Is Professor Jeffrey at LTI assistant professor?
+Who is the chair of admissions for LTI?
+Is the LTI director tenured?
+What is the position of Kemal Oflazer?
+Which LTI faculty wrote the AudioGPT paper?
+Did Professor Alexander and Shinji wrote a paper together?
+Who is the first author of the ML-SUPERB paper?
+Is Daniel last author of the WebArena paper?
+Did Prof. Daniel coauthored the WebArena paper?
+Which LTI faculty was the last author of the WebArena paper?
+What was the method name in 2023 by Graham about detecting factuality?
+What was the method name in 2023 paper wrote by Graham's student about long-range transformers?
+Which conference did the Unlimiformer published?
+Which LTI faculty involved in StarCoder paper?
+Which LTI faculty published in ICML about grounding language models?
+Which LTI faculty published in USENIX?
+Which LTI faculty is co-authoring in "Effective Prompt Extraction from Language Models" paper?
+Which LTI student is co-authoring in "Effective Prompt Extraction from Language Models" paper?
+Does CMU have classes on labor day?
+When does the fall break start in 2023?
+What is the day of the week when the fall break starts?
+When is the last day of class for the fall semester?
+Is CMU open two days after christmas?
+Is reading day available during the final exams week?
+When does the summer registration open in 2023?
+In which month does the summer registration open?
+When does the spring carnival starts in 2024?
+Do we have classes during the spring carnival?
+How long is the spring carnival?
+When does the spring break starts in 2024?
+When does the final exam week start for spring 2024?
+When does the summer registration open in 2024?
+What is the course code for Advanced NLP?
+What is the course code for LTI colloquium?
+Is 11700 LTI colloquium?
+Who teaches the speech AI classes in spring 2024?
+Does Intro to DL class offer multiple locations?
+Who teaches MIIS directed study in spring 2024?
+In which time does the search engine class start in spring 2024?
+Does applied ml class takes in the morning?
+What is the course code taught by the WebArena paper's author in spring 2024?
+Does Prof Morency teaches multimodal ML in spring 2024?
+Who teaches multimodal ML in spring 2024?
+What is the course code for biases in ML?
+Where does the Subword Modeling class takes place?
+Is Neural Code Generation taught by a single instructor?
+Who teaches neural code generation and involved in Starcoder paper?
+Is "Advanced Deep Learning" class taught by an LTI faculty?
+Is the professor that taught Multimodal ML in fall 2023 on leave now?
+Is the professor that taught Multimodal ML in spring 2024 on leave now?
+Does LTI offer "Software Management Capstone Project"?
+Is Human Language for AI offered in the morning in fall 2023?
+Is Human Language for AI offered at noon in fall 2023?
+Who taught Human Language for AI in fall 2023?
+Where do I have to go for Human Language for AI in fall 2023?
+What class did Lorraine Levin taught in fall 2023?
+What is the course code for on-device ML?
+What is the number of masters program offered by the CMU?
+What is the shorthand for Master of Computational Data Science?
+Is MCDS offered in CMU LTI?
+Is MSML offered in CMU LTI?
+What is the masters program in LTI most centric to research?
+How much course units you have to take to finish the masters program in LTI most centric to research?
+Does LTI MLT offers directed research?
+Who do I have to contact for more MLT information?
+Is RAships guaranteed for LTI MLT?
+Is GRE optional for MLT admissions?
+What is the minimum TOEFL score for MLT?
+Who do I have to contact for more MCDS information?
+How many majors does the MCDS program offer?
+What is the required number of class units to graduate for MCDS?
+Is there multiple options for the length of program for MCDS?
+Does MLT students usually serve as TAs?
+What letter does MLT students have to receive at the end of semester?
+What is the most serious letter that MLT students receive at the end of semester?
+Which letter is better, N-1 letter or Good letter?
+Is transfers into the MLT program permitted during the first semester?
+Is transfers into the MLT program permitted after the first semester?
+What is the maximum hours per week for MLT students to consult?
+Does MLT and PhD programs both have the grandfather policy?
+Which program usually allows external internship, MLT or PhD?
+What is the target duration for the LTI PhD program?
+What time does the spring carnival registration start?
+Where does the Molly's Trolleys tour happen?
+What is the cost for the Molly's Trolley tour when I buy the tickets on March 1st?
+What is the cost for the Molly's Trolley tour when I buy the tickets on Feb 1st?
+Does spring carnival offer VR experience?
+What is the Scotch'n'Soda Theatre show for this year's carnival?
+Which date is Buggy Donut Tent available?
+Where is Tepper Buggy Tent located?
+Where can I see the CMU lunar rovers?
+Can I see the CMU lunar rovers for free?
+What happens in CUC Pillars, April 13th 3PM?
+When does the commencement happen at CMU?
+When does the CMU President's Graduates Toast happen?
+Which building does the Center for Student Diversity and Inclusion Ceremony happen?
