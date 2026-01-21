@@ -36,9 +36,9 @@
 
 ## 3. Misc.
 ### 3-1. Advertisement in Conversational Search ([Public Repo](https://github.com/kimdanny/TeamCMU-AdRAG))
-- Qwen Ad-Rewriter SFT with TRL and DeepSpeed library ([code]())
-- DeBERTa training ([code]())
+- Qwen Ad-Rewriter SFT with TRL and DeepSpeed library ([code](https://github.com/kimdanny/TeamCMU-AdRAG/blob/main/ad_rewriter/train_sft_rewritier/train.py))
+- DeBERTa-based Ad-Classifier training with curriculum learning ([code](https://github.com/kimdanny/TeamCMU-AdRAG/blob/main/ad_classifier/v5_train_classifier_curriculum_mixed_synthetic_sampling.py))
 
 
 ### 3-2. Fair RAG ([Public Repo](https://github.com/kimdanny/Fair-RAG))
-- Rigorous experimental workflow with Stochastic Retriever implementation ([code]())
+- Rigorous experimental workflow with Stochastic Retriever implementation ([code](https://github.com/kimdanny/Fair-RAG/blob/main/experiment.py))
