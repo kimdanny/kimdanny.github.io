@@ -5,17 +5,18 @@
 ### 1-1. Evaluation of Mamba State Space Model (SSM) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/bias-bench))
 - Done in CMU Ethics course.
 - [Report G-Drive Link](https://drive.google.com/file/d/1QN-aUDoGz9d3rjb1t4jJrwfnmbHkaOgR/view?usp=share_link)
-- Implemented with **PyTorch**, **PEFT**, and **transformers**
 - State Space Model (Mamba) Finetuning ([code](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/finetune_mamba.py))
 - Pythia Finetuning with LoRA (with PEFT) and GPU optimization ([code1-sft](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/finetune_pythia.py)) ([code2-instruction-tuning](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/instruction_tune_pythia.py))
+- Implemented with **PyTorch**, **PEFT**, and **transformers**
+
 
 ### 1-2. Learning To Rank Retrievers (LTRR) for Efficient RAG ([Public Repo](https://github.com/kimdanny/Starlight-LiveRAG))
 - [SIGIR LiveRAG Paper](https://arxiv.org/abs/2506.13743) (Spotlight presentation)
-- Implemented with **PyTorch** and **transformers**. LTR components are implemented without any libraries.
 - Stochastic Reranker implementation ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/retrievers/ReRankers.py#L63))
 - Score Regularization-based Reranker implementation ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/retrievers/ReRankers.py#L103))
 - Point, Pair, List-wise Learning-To-Rank-Retriever implementation and training ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/04_train_ltrr.py))
-    - **PyTorch** for data loading and LLM-based retriever-router training
+- Implemented with **PyTorch** and **transformers** for data loading and LLM-based retriever-router training. LTR components are implemented without any libraries.
+
 
 ### 1-3. Mixture of Retrievers (MoR) ([Public Repo](https://github.com/Josh1108/MixtureRetrievers))
 - [EMNLP'25 Paper](https://aclanthology.org/2025.emnlp-main.601/) (Main)
