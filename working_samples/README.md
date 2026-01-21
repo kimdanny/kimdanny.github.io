@@ -2,7 +2,7 @@
 
 ## 1. Efficient LLM and RAG
 
-### 1-1. Evaluation of Mamba State Space Model (SSM) ([Private Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/bias-bench))
+### 1-1. Evaluation of Mamba State Space Model (SSM) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/bias-bench))
 - Done in CMU Ethics course.
 - [Report G-Drive Link](https://drive.google.com/file/d/1QN-aUDoGz9d3rjb1t4jJrwfnmbHkaOgR/view?usp=share_link)
 - Implemented with **PyTorch**, **PEFT**, and **transformers**
@@ -22,14 +22,14 @@
 
 
 ## 2. Implementing stuff from scratch
-### 2-1. Llama from scratch (CMU ANLP course project)
-- [private code](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/llama-from-scratch)
+### 2-1. Llama from scratch (CMU ANLP course project) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/llama-from-scratch))
+- Implementation of Transformer details such as, optimizers, and ROPE embedding to fine tuning for sentence classification. 
 
-### 2-2. Full RAG pipeline (CMU ANLP course project)
-- [private code](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/rag-pipeline)
+### 2-2. Full RAG pipeline (CMU ANLP course project) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/rag-pipeline))
+- From offline FAISS indexing to RAG pipeline with LangChain
 
 ### 2-3. Search Engine from scratch (CMU Search Engines course project)
-- (part of the course) BERT Reranker implementation and reranking depth experiments ([report-1](https://drive.google.com/file/d/1Zs8-TxQl8J_1cEXLFTxHRx75_RQ0rIBe/view?usp=share_link)) ([report-2](https://drive.google.com/file/d/1iyXq3PoUa1rRg2QAN3H5yLpZBDuDeeAC/view?usp=share_link))
+- (as part of the course) BERT Reranker implementation and reranking depth experiments ([report-1](https://drive.google.com/file/d/1Zs8-TxQl8J_1cEXLFTxHRx75_RQ0rIBe/view?usp=share_link)) ([report-2](https://drive.google.com/file/d/1iyXq3PoUa1rRg2QAN3H5yLpZBDuDeeAC/view?usp=share_link))
 
 
 
