@@ -7,7 +7,7 @@
 - [Report G-Drive Link](https://drive.google.com/file/d/1QN-aUDoGz9d3rjb1t4jJrwfnmbHkaOgR/view?usp=share_link)
 - Implemented with **PyTorch**, **PEFT**, and **transformers**
 - State Space Model (Mamba) Finetuning ([code](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/finetune_mamba.py))
-- Pythia Finetuning with LoRA (with PEFT) and GPU optimization ([code1](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/finetune_pythia.py)) ([code2-instruction-tuning](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/instruction_tune_pythia.py))
+- Pythia Finetuning with LoRA (with PEFT) and GPU optimization ([code1-sft](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/finetune_pythia.py)) ([code2-instruction-tuning](https://github.com/kimdanny/kimdanny.github.io/blob/master/working_samples/bias-bench/finetuning/instruction_tune_pythia.py))
 
 ### 1-2. Learning To Rank Retrievers (LTRR) for Efficient RAG ([Public Repo](https://github.com/kimdanny/Starlight-LiveRAG))
 - [SIGIR LiveRAG Paper](https://arxiv.org/abs/2506.13743) (Spotlight presentation)
