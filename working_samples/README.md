@@ -11,6 +11,7 @@
 
 ### 1-2. Learning To Rank Retrievers (LTRR) for Efficient RAG ([Public Repo](https://github.com/kimdanny/Starlight-LiveRAG))
 - [SIGIR LiveRAG Paper](https://arxiv.org/abs/2506.13743) (Spotlight presentation)
+- Implemented with **PyTorch** and **transformers**. LTR components are implemented without any libraries.
 - Stochastic Reranker implementation ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/retrievers/ReRankers.py#L63))
 - Score Regularization-based Reranker implementation ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/retrievers/ReRankers.py#L103))
 - Point, Pair, List-wise Learning-To-Rank-Retriever implementation and training ([code](https://github.com/kimdanny/Starlight-LiveRAG/blob/main/04_train_ltrr.py))
@@ -23,15 +24,17 @@
 
 ## 2. Implementing stuff from scratch
 ### 2-1. Llama from scratch (CMU ANLP course project) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/llama-from-scratch))
-- Implementation of Transformer details such as, optimizers, and ROPE embedding to fine tuning for sentence classification. 
+- Implementation of Transformer details such as, optimizers, and ROPE embedding to fine tuning for sentence classification.
+- Implemented with native **PyTorch**.
 
 ### 2-2. Full RAG pipeline (CMU ANLP course project) ([Code Repo](https://github.com/kimdanny/kimdanny.github.io/tree/master/working_samples/rag-pipeline))
-- From offline FAISS indexing to RAG pipeline with LangChain.
+- From offline FAISS indexing to RAG pipeline.
+- Implemented with **PyTorch**, **transformers**, and **LangChain**.
 
 ### 2-3. Search Engine from scratch (CMU Search Engines course project)
 - Implementing the whole search engine from scratch, followed by experimentation of certain components.
 - (as part of the course) BERT Reranker implementation and reranking depth experiments ([report-1](https://drive.google.com/file/d/1Zs8-TxQl8J_1cEXLFTxHRx75_RQ0rIBe/view?usp=share_link)) ([report-2](https://drive.google.com/file/d/1iyXq3PoUa1rRg2QAN3H5yLpZBDuDeeAC/view?usp=share_link))
-
+- Implemented with **PyTorch** and **transformers**.
 
 
 
@@ -40,11 +43,13 @@
 - [CLEF'25 Paper](https://ceur-ws.org/Vol-4038/paper_385.pdf) (Best Paper)
 - Qwen Ad-Rewriter SFT with TRL and DeepSpeed library ([code](https://github.com/kimdanny/TeamCMU-AdRAG/blob/main/ad_rewriter/train_sft_rewritier/train.py))
 - DeBERTa-based Ad-Classifier training with curriculum learning ([code](https://github.com/kimdanny/TeamCMU-AdRAG/blob/main/ad_classifier/v5_train_classifier_curriculum_mixed_synthetic_sampling.py))
+- Implemented with **PyTorch**, **transformers**, **TRL**, and **DeepSpeed**.
 
 
 ### 3-2. Fair RAG ([Public Repo](https://github.com/kimdanny/Fair-RAG))
 - [ICTIR'25 Paper](https://dl.acm.org/doi/10.1145/3731120.3744599) (Oral)
 - Rigorous experimental workflow with Stochastic Retriever implementation ([code](https://github.com/kimdanny/Fair-RAG/blob/main/experiment.py))
+- Implemented with **PyTorch**, **transformers**, and **Accelerate** for Distributed GPU inference.
 
 ---
 
