@@ -134,7 +134,7 @@
                       </ul>
                       <li>Efficient and Effective RAG: </li>
                       <ul>
-                        <li><a href="https://arxiv.org/abs/2506.13743">[SIGIR'25 LiveRAG]</a> <a href="https://www.arxiv.org/abs/2506.15862">[EMNLP'25]</a></li>
+                        <li><a href="https://arxiv.org/abs/2506.13743">[SIGIR'26]</a> <a href="https://www.arxiv.org/abs/2506.15862">[EMNLP'25]</a></li>
                       </ul>
                     </ul>
                     <!-- #2 -->
@@ -160,13 +160,17 @@
                     <!-- #3 -->
                     <li>Simulated Evaluation and Benchmarking of AI Systems</li>
                     <ul>
+                      <li>Evaluation under Simulated Marketplace:</li>
+                      <ul>
+                        <li><a href="https://arxiv.org/abs/2604.14256">[SIGIR'26]</a></li>
+                      </ul>
                       <li>User/Query Simulation:</li>
                       <ul>
                         <li><a href="https://dl.acm.org/doi/10.1145/3726302.3730335">[SIGIR'25]</a> <a href="https://dl.acm.org/doi/abs/10.1145/3477495.3531814">[SIGIR'22]</a></li>
                       </ul>
                       <li>Tip of the Tongue Retrieval:</li>
                       <ul>
-                        <li>[NTCIR-19] [TREC'25] <a href="https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf">[TREC'24]</a></li>
+                        <li>[NTCIR-19] <a href="https://trec.nist.gov/pubs/trec34/papers/Overview_tot.pdf">[TREC'25]</a> <a href="https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf">[TREC'24]</a></li>
                       </ul>
                     </ul>
                   </ul>
@@ -230,6 +234,32 @@
                 </td>
               </tr>
 
+              <!-- LTRR -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
+                  <img src='images/ltrr.png' width="200" height="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2506.13743">
+                    <papertitle>LTRR: Learning To Rank Retrievers for LLMs</papertitle>
+                  </a>
+                  <br>
+                  <strong>To Eun Kim</strong>, Fernando Diaz
+                  <br>
+                  <em>SIGIR 2026</em> <br>
+                  <em>SIGIR 2025 LiveRAG Workshop Spotlight</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2506.13743">arXiv</a> / 
+                  <a href="https://github.com/kimdanny/Starlight-LiveRAG">code</a>
+                  <p>
+                    Ranking the Rankers.
+                    Exploration of a query routing approach that dynamically selects from a pool of retrievers based on the query, 
+                    using both train-free heuristics and learned routing models. We frame routing as a learning-to-rank (LTR) problem and introduce LTRR, 
+                    a framework that learns to rank retrievers by their expected utility gain to downstream LLM performance.
+                  </p>
+                </td>
+              </tr>
+
               <!-- MoR -->
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
@@ -273,31 +303,6 @@
                   <p>
                     We propose a modular pipeline for advertisement management in RAG-based conversational systems, consisting of an ad-rewriter for 
                     seamless ad integration and a robust ad-classifier for detection.
-                  </p>
-                </td>
-              </tr>
-
-              <!-- LTRR -->
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle" class="responsive-image">
-                  <img src='images/ltrr.png' width="200" height="200">
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2506.13743">
-                    <papertitle>LTRR: Learning To Rank Retrievers for LLMs</papertitle>
-                  </a>
-                  <br>
-                  <strong>To Eun Kim</strong>, Fernando Diaz
-                  <br>
-                  <em>SIGIR 2025 LiveRAG Workshop Spotlight</em>
-                  <br>
-                  <a href="https://arxiv.org/abs/2506.13743">arXiv</a> / 
-                  <a href="https://github.com/kimdanny/Starlight-LiveRAG">code</a>
-                  <p>
-                    Ranking the Rankers.
-                    Exploration of a query routing approach that dynamically selects from a pool of retrievers based on the query, 
-                    using both train-free heuristics and learned routing models. We frame routing as a learning-to-rank (LTR) problem and introduce LTRR, 
-                    a framework that learns to rank retrievers by their expected utility gain to downstream LLM performance.
                   </p>
                 </td>
               </tr>
