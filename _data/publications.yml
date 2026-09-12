@@ -52,7 +52,7 @@
   year: 2026
   venue: "SIGIR 2026 (Perspectives)"
   venue_full: "49th ACM SIGIR Conference on Research and Development in Information Retrieval"
-  topics: [agent-econ, eval]
+  topics: [agent-econ, eval, survey]
   selected: true
   image: /images/marketplace.png
   tldr: >
