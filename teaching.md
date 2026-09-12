@@ -39,8 +39,7 @@ now an annual tradition — as Head of the Tutorials Team, Sep 2019 – Jun 2022
       <a href="https://github.com/UCLAIS/Machine-Learning-Tutorials" rel="noopener">[GitHub]</a>
       <a href="https://www.youtube.com/playlist?list=PL4JaWnfkTBbOLFG8xW5Ggtj_nRpgyDhIQ" rel="noopener">[lecture recordings]</a></li>
   <li>Season 21/22 —
-      <a href="https://github.com/UCLAIS/ML-Tutorials-Season-2" rel="noopener">[GitHub]</a>
-      <a href="https://kimdanny.github.io/blog/random/aisoc-tutorial-event/" rel="noopener">[pictures]</a></li>
+      <a href="https://github.com/UCLAIS/ML-Tutorials-Season-2" rel="noopener">[GitHub]</a></li>
   <li>Co-organised Climate Hack.AI, an international competition, where students at 25 universities competed using AI to help reduce global carbon emissions: 
       <a href="https://github.com/UCLAIS/Climate-Hack-2022" rel="noopener">[GitHub]</a>
       <a href="https://www.ucl.ac.uk/news/2022/feb/students-compete-use-ai-help-against-climate-change" rel="noopener">[media coverage]</a></li>

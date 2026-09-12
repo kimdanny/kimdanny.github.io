@@ -137,4 +137,5 @@ Two paths that must keep working, because the published CV PDF links to them:
 - `/assets/agentsearch-invited-talk.pdf`
 
 `/bio.html` redirects to `/` so old inbound links don't 404. The blog at `/blog/` lives in a
-separate repository and is unaffected by anything here.
+separate repository; this site no longer links to it anywhere (no nav entry, no `site.blog`
+config key), and nothing here affects it.

@@ -19,7 +19,6 @@ title: "Home"
       <a class="icon-link" href="{{ site.github }}" rel="noopener" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>
       <a class="icon-link" href="{{ site.linkedin }}" rel="noopener" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>
       <a class="icon-link" href="{{ site.twitter }}" rel="noopener" title="X" aria-label="X">{% include icon.html name="x" %}</a>
-      <!-- <a href="{{ site.blog }}" rel="noopener" title="Blog" aria-label="Blog">Blog</a> -->
     </p>
   </div>
 </div>
