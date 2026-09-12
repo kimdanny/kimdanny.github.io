@@ -17,7 +17,7 @@ This repo pins **Ruby 3.0.0** via `.ruby-version`. The `jekyll` on your `PATH` a
 ### One-time setup
 
 ```bash
-cd ~/new-personal-website
+cd <current-dir>
 
 # Make sure rbenv's Ruby is the one in use (should print 3.0.0, not 2.6.x)
 ruby -v
@@ -43,14 +43,6 @@ bash takedown.sh    # stop it
 rebuilds the site and refreshes the open browser tab — no need to re-run anything. It waits
 for the first build and prints the build log if the server fails to come up; the full log is
 at `/tmp/jekyll-preview.log`.
-
-To check the phone layout, open Chrome DevTools (<kbd>⌥⌘I</kbd>), click the
-device-toolbar icon (<kbd>⇧⌘M</kbd>), and pick iPhone or set the width to 390px.
-Things to look for: no horizontal scrolling, the nav wrapping onto its own line, and paper
-thumbnails disappearing below 600px (that's intentional).
-
-Dark mode follows your system setting — flip macOS to Dark in System Settings →
-Appearance, or in DevTools use ⋮ → More tools → Rendering → *Emulate prefers-color-scheme*.
 
 To stop the server: `bash takedown.sh` (or <kbd>Ctrl-C</kbd> if you ran `jekyll serve` by hand).
 
@@ -109,33 +101,4 @@ is Markdown, so inline links work:
     Something happened — [with a link](https://...).
 ```
 
-The homepage shows the newest five and folds the rest into "Older news".
-
-### Other edits
-
-| What | Where |
-|---|---|
-| Bio, research thrusts, homepage | `index.md` |
-| Teaching and mentoring | `teaching.md` |
-| Service, talks, awards | `service.md` |
-| Nav bar links | `_data/nav.yml` |
-| Name, email, social links, topics | `_config.yml` |
-| Colors, type, spacing | `assets/css/main.css` |
-| CV PDF | replace `assets/CV.pdf` |
-
----
-
-## Deploying
-
-Publishing means copying the contents of this repo into the **`kimdanny.github.io`** repo and
-pushing — GitHub Pages builds Jekyll server-side, so no build step or Actions workflow is
-needed. Do not commit `_site/`; it's generated and gitignored.
-
-Two paths that must keep working, because the published CV PDF links to them:
-
-- `/assets/CV.pdf`
-- `/assets/agentsearch-invited-talk.pdf`
-
-`/bio.html` redirects to `/` so old inbound links don't 404. The blog at `/blog/` lives in a
-separate repository; this site no longer links to it anywhere (no nav entry, no `site.blog`
-config key), and nothing here affects it.
+The homepage shows the newest four and folds the rest into "Older news".
