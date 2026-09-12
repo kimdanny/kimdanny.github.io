@@ -1,0 +1,49 @@
+{%- comment -%}
+  Renders one publication.
+    include pub.html pub=<entry> tldr=true
+  `tldr` is optional; when omitted the summary paragraph is hidden.
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+{%- assign topic_attr = p.topics | join: " " -%}
+<article class="pub" data-topics="{{ topic_attr }}" data-year="{{ p.year }}">
+  {%- if p.image %}
+  <div class="pub__thumb">
+    <img src="{{ p.image | relative_url }}" alt="" loading="lazy" width="180">
+  </div>
+  {%- endif %}
+  <div class="pub__body">
+    {%- assign primary = p.links.paper | default: p.links.first[1] %}
+    <div class="pub__title"><a href="{{ primary }}" rel="noopener">{{ p.title }}</a></div>
+
+    <p class="pub__authors">
+      {%- for a in p.authors -%}
+        {%- assign clean = a | remove: "*" | strip -%}
+        {%- if clean == site.author_name -%}
+          <strong>{{ a }}</strong>
+        {%- else -%}
+          {{ a }}
+        {%- endif -%}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+    </p>
+
+    <p class="pub__venue">
+      {{ p.venue }}{%- if p.venue_note %} — {{ p.venue_note }}{% endif -%}
+      {%- if p.also %}<br>{{ p.also }}{% endif -%}
+    </p>
+
+    {%- if p.award %}<p class="pub__award">{{ p.award }}</p>{% endif -%}
+    {%- if p.equal_note %}<p class="pub__note">* denotes equal contribution.</p>{% endif -%}
+
+    {%- if p.links %}
+    <p class="pub__links">
+      {%- for link in p.links -%}
+        <a href="{{ link[1] }}" rel="noopener">{{ link[0] }}</a>
+        {%- unless forloop.last %} / {% endunless -%}
+      {%- endfor -%}
+    </p>
+    {%- endif -%}
+
+    {%- if include.tldr and p.tldr %}<p class="pub__tldr">{{ p.tldr }}</p>{% endif -%}
+  </div>
+</article>

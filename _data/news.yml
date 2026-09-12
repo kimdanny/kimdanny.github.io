@@ -1,0 +1,57 @@
+# Newest first. `date` only needs to be accurate to the month — it renders as "Sep 2026".
+# `text` is Markdown, so inline links work.
+
+- date: 2026-10-01
+  text: >
+    🚨 [Multi-Agent Transactive Memory](https://arxiv.org/abs/2606.19911) will be presented
+    as an **oral** at the COLM 2026 Lifelong Agents Workshop.
+
+- date: 2026-08-01
+  text: >
+    🏆 Awarded the **CMU LTI ASA Presidential Fellowship** for 2026–27.
+
+- date: 2026-07-24
+  text: >
+    🎙️ Gave an invited talk, *Agent Search and Marketplace Evaluation*, at the
+    [AgentSearch workshop](https://agent-search.github.io/agentsearch-sigir26/) at SIGIR 2026.
+    [[slides]](/assets/agentsearch-invited-talk.pdf)
+
+- date: 2026-07-01
+  text: >
+    🚀 Four contributions at **SIGIR 2026**: [LTRR](https://dl.acm.org/doi/10.1145/3805712.3809954),
+    [Marketplace Evaluation](https://dl.acm.org/doi/10.1145/3805712.3808542),
+    [AgentSearch](https://dl.acm.org/doi/abs/10.1145/3805712.3808653), and
+    [Multilingual ToT Query Generation](https://dl.acm.org/doi/10.1145/3805712.3808626).
+
+- date: 2026-07-01
+  text: >
+    🚀 **ACL 2026** (Main): [Uncertainty Quantification in LLM
+    Agents](https://aclanthology.org/2026.acl-long.738/).
+
+- date: 2026-05-01
+  text: >
+    Visiting the [Center for Intelligent Information Retrieval](https://ciir.cs.umass.edu)
+    at UMass Amherst for the summer, working with Prof.
+    [Hamed Zamani](https://groups.cs.umass.edu/zamani/) on retrievers for deep research agents.
+
+- date: 2025-11-01
+  text: >
+    🚀 **EMNLP 2025** (Main): [MoR: Better Handling Diverse Queries with a Mixture of Sparse, Dense, and Human Retrievers](https://aclanthology.org/2025.emnlp-main.601/).
+
+- date: 2025-09-01
+  text: >
+    🏆 **Best Paper Award** at the CLEF 2025 Touché Lab: [TeamCMU at Touché: Adversarial Co-Evolution for Advertisement Integration and Detection in Conversational Search](https://ceur-ws.org/Vol-4038/paper_385.pdf).
+    
+
+- date: 2025-07-01
+  text: >
+    🚀 Four contributions at **SIGIR/ICTIR 2025**: presented [ToT Query
+    Elicitation](https://doi.org/10.1145/3726302.3730335), co-organised the
+    [REML tutorial](https://retrieval-enhanced-ml.github.io/sigir-2025.html), and
+    [LTRR](https://arxiv.org/abs/2506.13743) was a spotlight at the LiveRAG workshop.
+    [Fair RAG](https://doi.org/10.1145/3731120.3744599) appeared at ICTIR 2025.
+
+- date: 2023-08-01
+  text: >
+    Started my PhD at the CMU [Language Technologies Institute](https://lti.cs.cmu.edu),
+    advised by Prof. [Fernando Diaz](https://841.io).

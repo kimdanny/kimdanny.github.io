@@ -1,0 +1,72 @@
+# --- Identity -----------------------------------------------------------
+title: "(Danny) To Eun Kim"
+author_name: "To Eun Kim"
+korean_name: "김도은"
+tagline: "PhD student, Carnegie Mellon University (LTI)"
+email: "toeunkim@cmu.edu"
+description: >-
+  Danny To Eun Kim is a PhD student at the Carnegie Mellon University Language
+  Technologies Institute, working on retrieval-enhanced machine learning,
+  agentic search, and the simulated evaluation of information access systems.
+url: "https://kimdanny.github.io"
+baseurl: ""
+lang: en
+
+# --- Off-site profiles --------------------------------------------------
+scholar: "https://scholar.google.com/citations?user=3ymamHAAAAAJ&hl=en"
+github: "https://github.com/kimdanny/"
+linkedin: "https://www.linkedin.com/in/danny-toeun-kim/"
+twitter: "https://twitter.com/TEKnologyy"
+blog: "https://kimdanny.github.io/blog/"
+cv: "/assets/CV.pdf"
+
+# --- Publication topic vocabulary --------------------------------------
+# `key` matches the `topics:` entries in _data/publications.yml.
+# Order here is the order the filter chips render in.
+topics:
+  - key: agent-econ
+    label: "Agent Economies"
+  - key: retrievers
+    label: "Distributed Retrievers"
+  - key: deployment
+    label: "Monetization &amp; Deployment"
+  - key: tot
+    label: "Complex / ToT Retrieval"
+  - key: eval
+    label: "Evaluation"
+  - key: survey
+    label: "Survey / Position"
+  - key: tech-report
+    label: "Tech Reports"
+
+# --- Build --------------------------------------------------------------
+# The github-pages gem defaults to jekyll-theme-primer, whose assets/css/style.scss
+# collides with our own stylesheet. We supply all our own layouts, so switch it off.
+theme: null
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  style: compressed
+
+exclude:
+  - old-website
+  - cv-source.tex
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - .ruby-version
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "page" }

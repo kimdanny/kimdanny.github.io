@@ -1,0 +1,300 @@
+# Single source of truth for publications.
+#   selected: true  -> also appears in the "Selected publications" block on /
+#   topics:         -> keys must match `topics:` in _config.yml (drives filter chips)
+#   links:          -> free-form map; keys are rendered as the link labels, in order
+#
+# Author names are spelled out where a full spelling was available from the
+# previous site; the CV's initial form is kept otherwise.
+
+- title: "Agent and Tool Search: Foundations, Techniques, and Open Challenges"
+  authors: ["Bin Wu", "Hossein A. Rahmani", "To Eun Kim", "Arastun Mammadli",
+            "Shuofei Qiao", "Xiao Fu", "Varsha Ramineni", "Xiaoyu Zhang",
+            "Chuan Meng", "George Drayson", "Anu Chowdhury", "Jerome Ramos",
+            "Abdine Maiga", "Emine Yilmaz"]
+  year: 2026
+  venue: "Preprint"
+  topics: [agent-econ, survey]
+  links:
+    paper: "https://www.preprints.org/manuscript/202609.0402"
+
+- title: "Multi-Agent Transactive Memory"
+  authors: ["To Eun Kim*", "Xuhong He*", "Dishank Jain*", "Ambuj Agrawal",
+            "Negar Arabzadeh", "Fernando Diaz"]
+  equal_note: true
+  year: 2026
+  venue: "COLM 2026 Lifelong Agents Workshop"
+  venue_note: "Oral"
+  topics: [agent-econ]
+  selected: true
+  image: /images/matm.png
+  tldr: >
+    We propose Multi-Agent Transactive Memory (MATM), a framework for
+    population-level storage and retrieval of agent-generated trajectories, where
+    producer agents contribute trajectories to a shared repository and consumer
+    agents retrieve them to improve task execution.
+  links:
+    paper: "https://arxiv.org/abs/2606.19911"
+    code: "https://github.com/kimdanny/matm"
+    dataset: "https://huggingface.co/datasets/toeunkim/matm-trajectories"
+
+- title: "AgentSearch: Indexing, Retrieval, and Ranking of AI Agents"
+  authors: ["Bin Wu", "To Eun Kim", "Yue Feng", "Fernando Diaz", "Zhaochun Ren", "Emine Yilmaz"]
+  year: 2026
+  venue: "SIGIR 2026"
+  venue_full: "49th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  topics: [agent-econ]
+  links:
+    paper: "https://dl.acm.org/doi/abs/10.1145/3805712.3808653"
+    workshop page: "https://agent-search.github.io/agentsearch-sigir26/"
+
+- title: "Evaluation of Information Access Agents under Simulated AI Marketplace Dynamics"
+  authors: ["To Eun Kim", "Alireza Salemi", "Hamed Zamani", "Fernando Diaz"]
+  year: 2026
+  venue: "SIGIR 2026 (Perspectives)"
+  venue_full: "49th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  topics: [agent-econ, eval]
+  selected: true
+  image: /images/marketplace.png
+  tldr: >
+    We introduce Marketplace Evaluation, a simulation-based paradigm that evaluates
+    information access systems as participants in a competitive marketplace. By
+    simulating repeated interactions and evolving user and agent preferences, the
+    framework enables longitudinal evaluation and marketplace-level metrics, such as
+    retention and market share, that complement and can extend beyond traditional
+    accuracy-based metrics.
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3805712.3808542"
+    code: "https://github.com/kimdanny/marketplace-eval"
+
+- title: "LTRR: Learning To Rank Retrievers for LLMs"
+  authors: ["To Eun Kim", "Fernando Diaz"]
+  year: 2026
+  venue: "SIGIR 2026"
+  venue_full: "49th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  also: "SIGIR 2025 LiveRAG Workshop — Spotlight"
+  topics: [retrievers]
+  selected: true
+  image: /images/ltrr.png
+  tldr: >
+    Ranking the rankers. We explore a query routing approach that dynamically selects
+    from a pool of retrievers based on the query, using both train-free heuristics and
+    learned routing models. We frame routing as a learning-to-rank (LTR) problem and
+    introduce LTRR, a framework that learns to rank retrievers by their expected
+    utility gain to downstream LLM performance.
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3805712.3809954"
+    arXiv: "https://arxiv.org/abs/2506.13743"
+    code: "https://github.com/kimdanny/Starlight-LiveRAG"
+
+- title: "Multilingual and Domain-Agnostic Tip-of-the-Tongue Query Generation for Simulated Evaluation"
+  authors: ["Xuhong He", "To Eun Kim", "Fernando Diaz", "M. Fröebe",
+            "Jaime Arguello", "Bhaskar Mitra"]
+  year: 2026
+  venue: "SIGIR 2026"
+  venue_full: "49th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  topics: [tot, eval]
+  links:
+    paper: "https://dl.acm.org/doi/10.1145/3805712.3808626"
+    code: "https://github.com/kimdanny/ntcir-19-tot"
+
+- title: "Uncertainty Quantification in LLM Agents: Foundations, Emerging Challenges, and Opportunities"
+  authors: ["Changdae Oh", "Seongheon Park", "To Eun Kim", "Jiatong Li", "Wendi Li",
+            "Samuel Yeh", "Sean Du", "Hamed Hassani", "Paul Bogdan", "Dawn Song",
+            "Sharon Li"]
+  year: 2026
+  venue: "ACL 2026 (Main)"
+  venue_full: "The 64th Annual Meeting of the Association for Computational Linguistics"
+  topics: [agent-econ, survey]
+  links:
+    paper: "https://aclanthology.org/2026.acl-long.738/"
+
+- title: "MoR: Better Handling Diverse Queries with a Mixture of Sparse, Dense, and Human Retrievers"
+  authors: ["Jushaan Singh Kalra*", "Xinran Zhao*", "To Eun Kim", "Fengyu Cai",
+            "Fernando Diaz", "Tongshuang Wu"]
+  equal_note: true
+  year: 2025
+  venue: "EMNLP 2025 (Main)"
+  venue_full: "Conference on Empirical Methods in Natural Language Processing"
+  topics: [retrievers]
+  selected: true
+  image: /images/mor.png
+  tldr: >
+    Can we dynamically select and integrate multiple retrievers for each individual
+    query, without the need for manual selection? In this work, we validate this
+    intuition with quantitative analysis and introduce mixture of retrievers: a
+    zero-shot, weighted combination of heterogeneous retrievers.
+  links:
+    paper: "https://aclanthology.org/2025.emnlp-main.601/"
+    code: "https://github.com/Josh1108/MixtureRetrievers"
+
+- title: "TeamCMU at Touché: Adversarial Co-Evolution for Advertisement Integration and Detection in Conversational Search"
+  authors: ["To Eun Kim", "João Coelho", "Gbemileke Onilude", "Jai Singh"]
+  year: 2025
+  venue: "CLEF 2025 Touché Lab"
+  venue_full: "16th Conference and Labs of the Evaluation Forum"
+  award: "🏆 Best Paper Award"
+  topics: [deployment, tech-report]
+  image: /images/ad-rag.png
+  tldr: >
+    We propose a modular pipeline for advertisement management in RAG-based
+    conversational systems, consisting of an ad-rewriter for seamless ad integration
+    and a robust ad-classifier for detection.
+  links:
+    paper: "https://ceur-ws.org/Vol-4038/paper_385.pdf"
+    code: "https://github.com/kimdanny/TeamCMU-AdRAG"
+
+- title: "Tip of the Tongue Query Elicitation for Simulated Evaluation"
+  authors: ["Yifan He*", "To Eun Kim*", "Fernando Diaz", "Jaime Arguello", "Bhaskar Mitra"]
+  equal_note: true
+  year: 2025
+  venue: "SIGIR 2025"
+  venue_full: "48th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  topics: [tot, eval]
+  image: /images/tot-elicitation.png
+  tldr: >
+    We introduce methods for eliciting tip-of-the-tongue (ToT) queries using large
+    language models and human participants, enabling scalable and systematic
+    evaluation of ToT retrieval systems. Our LLM-based simulator generates synthetic
+    ToT queries that align well with human-created ones, while our human elicitation
+    interface uses visual stimuli to induce the ToT state. Our LLM-elicited queries are
+    featured in the TREC 2024 ToT track, with human-elicited queries in TREC 2025.
+  links:
+    paper: "https://doi.org/10.1145/3726302.3730335"
+    LLM elicitation code: "https://github.com/kimdanny/llm-tot-query-elicitation"
+    human elicitation code: "https://github.com/kimdanny/human-tot-query-elicitation-mturk"
+
+- title: "Towards Fair RAG: On the Impact of Fair Ranking in Retrieval-Augmented Generation"
+  authors: ["To Eun Kim", "Fernando Diaz"]
+  year: 2025
+  venue: "ICTIR 2025"
+  venue_full: "The 15th Int'l Conference on Innovative Concepts and Theories in Information Retrieval"
+  also: "NeurIPS 2024 AFME Workshop — Top-3 Spotlight"
+  topics: [deployment]
+  selected: true
+  image: /images/fair-rag.png
+  tldr: >
+    We conduct the first comprehensive study of fairness-aware ranking in RAG systems,
+    covering both ranking fairness and attribution fairness — ensuring balanced exposure
+    of retrieved documents and equitable crediting of sources. Analyzing 12 RAG models
+    across 7 tasks, we find that fairness-aware retrieval often maintains or enhances
+    both ranking effectiveness and generation quality.
+  links:
+    paper: "https://doi.org/10.1145/3731120.3744599"
+    code: "https://github.com/kimdanny/Fair-RAG"
+
+- title: "Retrieval-Enhanced Machine Learning: Synthesis and Opportunities"
+  authors: ["To Eun Kim", "Alireza Salemi", "Andrew Drozdov", "Fernando Diaz", "Hamed Zamani"]
+  year: 2024
+  venue: "SIGIR 2025 Tutorial"
+  also: "SIGIR-AP 2024 Tutorial"
+  topics: [retrievers, survey]
+  selected: true
+  image: /images/reml-survey.png
+  tldr: >
+    We posit that the paradigm of retrieval-enhancement can be extended to a broader
+    spectrum of machine learning — computer vision, time series prediction, and
+    computational biology — not just NLP. We introduce a formal framework of
+    Retrieval-Enhanced Machine Learning (REML), synthesizing literature across domains
+    under consistent notation.
+  links:
+    paper: "https://arxiv.org/abs/2407.12982"
+    SIGIR 2025 tutorial: "https://doi.org/10.1145/3726302.3731695"
+    SIGIR-AP 2024 tutorial: "https://doi.org/10.1145/3673791.3698439"
+    website: "https://retrieval-enhanced-ml.github.io"
+
+- title: "Overview of the TREC 2025 Tip-of-the-Tongue Track"
+  authors: ["Jaime Arguello", "Fernando Diaz", "M. Fröebe", "To Eun Kim", "Bhaskar Mitra"]
+  year: 2025
+  venue: "TREC 2025"
+  venue_full: "The 34th Text Retrieval Conference"
+  topics: [tot, eval, tech-report]
+  links:
+    paper: "https://arxiv.org/abs/2601.20671"
+
+- title: "Overview of the TREC 2024 Tip-of-the-Tongue Track"
+  authors: ["Jaime Arguello", "S. Bhargav", "Fernando Diaz", "To Eun Kim", "Yifan He",
+            "E. Kanoulas", "Bhaskar Mitra"]
+  year: 2024
+  venue: "TREC 2024"
+  venue_full: "The 33rd Text Retrieval Conference"
+  topics: [tot, eval, tech-report]
+  links:
+    paper: "https://trec.nist.gov/pubs/trec33/papers/Overview_tot.pdf"
+
+- title: "A Comprehensive Survey on Generative Diffusion Models for Structured Data"
+  authors: ["Heejoon Koo", "To Eun Kim"]
+  year: 2023
+  venue: "Preprint"
+  topics: [survey]
+  image: /images/diffusion-survey.png
+  tldr: >
+    A comprehensive review of diffusion models for structured data. We give a concise
+    overview of score-based diffusion theory, then survey pioneering works across
+    data-driven general tasks and domain-specific applications, and discuss the
+    limitations and open directions of existing work.
+  links:
+    paper: "https://arxiv.org/abs/2306.04139"
+
+- title: "A Multi-Task Based Neural Model to Simulate Users in Goal-Oriented Dialogue Systems"
+  authors: ["To Eun Kim", "Aldo Lipani"]
+  year: 2022
+  venue: "SIGIR 2022"
+  venue_full: "45th ACM SIGIR Conference on Research and Development in Information Retrieval"
+  also: "SIGIR 2022 SCAI Workshop — Oral"
+  topics: [eval, deployment]
+  image: /images/sigir22-t5.png
+  tldr: >
+    A conversational user simulator that generates user-side utterances and jointly
+    predicts the user's next action and satisfaction level through multi-task learning.
+    State of the art in satisfaction and action prediction on the USS dataset.
+  links:
+    paper: "https://dl.acm.org/doi/abs/10.1145/3477495.3531814"
+    poster: "https://www.researchgate.net/publication/362704102_A_Multi-Task_Based_Neural_Model_to_Simulate_Users_in_Goal-Oriented_Dialogue_Systems"
+    code: "https://github.com/kimdanny/user-simulation-t5"
+
+- title: "Condita: A State Machine Like Architecture for Multi-Modal Task Bots"
+  authors: ["Jerome Ramos*", "To Eun Kim*", "Z. Shi", "X. Fu", "F. Ye", "Y. Feng", "Aldo Lipani"]
+  equal_note: true
+  year: 2022
+  venue: "Alexa Prize TaskBot Challenge Proceedings"
+  topics: [deployment, tech-report]
+  image: /images/condita-before.png
+  tldr: >
+    We present the COoking-aNd-DIy-TAsk-based (Condita) task-oriented dialogue system
+    for the first Alexa Prize TaskBot Challenge. Condita is a multi-modal agent that
+    assists users with cooking and home improvement tasks; we discuss its state
+    machine like architecture and the conversational strategies behind its performance.
+  links:
+    paper: "https://www.amazon.science/alexa-prize/proceedings/condita-a-state-machine-like-architecture-for-multi-modal-task-bots"
+
+- title: "When and What to Ask Through World States and Text Instructions: IGLU NLP Challenge Solution"
+  authors: ["Z. Shi*", "Jerome Ramos*", "To Eun Kim", "X. Wang", "H. Rahmani", "Aldo Lipani"]
+  equal_note: true
+  year: 2022
+  venue: "NeurIPS 2022 Competition — IGLU"
+  venue_full: "Interactive Grounded Language Understanding in a Collaborative Environment"
+  award: "🏆 Research Prize Winner"
+  topics: [deployment, tech-report]
+  image: /images/iglu-chall.png
+  tldr: >
+    We address two questions in the IGLU NLP task: when should an agent ask for
+    clarification, and what clarification question should it ask. Our classification
+    model reaches an F1 of 0.757 (3rd on the leaderboard), and our ranking model
+    reaches roughly 0.38 MRR by extending a traditional ranking model.
+  links:
+    paper: "https://arxiv.org/abs/2305.05754"
+
+- title: "Attention-based Ingredient Phrase Parser"
+  authors: ["Z. Shi", "P. Ni", "M. Wang", "To Eun Kim", "Aldo Lipani"]
+  year: 2022
+  venue: "ESANN 2022"
+  venue_full: "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning"
+  topics: [deployment]
+  image: /images/esann-attention.png
+  tldr: >
+    Spin-off research from the Alexa Prize TaskBot Challenge. To assist users with
+    cooking, ingredients and their attributes — name, unit, quantity — must be surfaced
+    precisely and promptly; we propose a new ingredient parsing model to do so.
+  links:
+    paper: "https://www.esann.org/sites/default/files/proceedings/2022/ES2022-10.pdf"
+    code: "https://github.com/ZhengxiangShi/IngredientParsing"

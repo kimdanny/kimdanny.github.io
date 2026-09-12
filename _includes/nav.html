@@ -1,0 +1,14 @@
+<nav class="site-nav" aria-label="Main">
+  <a class="site-nav__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <ul class="site-nav__links">
+    {%- for item in site.data.nav -%}
+      {%- assign target = item.url | relative_url -%}
+      {%- if item.external -%}{%- assign target = item.url -%}{%- endif -%}
+      <li>
+        <a href="{{ target }}"
+           {% if page.url == item.url %}class="is-current" aria-current="page"{% endif %}
+           {% if item.external %}rel="noopener"{% endif %}>{{ item.label }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

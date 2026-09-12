@@ -1,0 +1,5 @@
+{%- assign n = include.item -%}
+<li>
+  <span class="news__date">{{ n.date | date: "%b %Y" }}</span>
+  <span class="news__text">{{ n.text | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+</li>

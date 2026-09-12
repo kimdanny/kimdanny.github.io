@@ -1,9 +1,0 @@
-__pycache__/
-data/
-*.txt
-*.csv
-*.pt
-*.data
-*.npy
-*.model
-*.json

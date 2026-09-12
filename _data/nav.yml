@@ -1,0 +1,13 @@
+- label: home
+  url: /
+- label: publications
+  url: /publications/
+- label: teaching
+  url: /teaching/
+- label: service
+  url: /service/
+- label: cv
+  url: /assets/CV.pdf
+- label: blog
+  url: https://kimdanny.github.io/blog/
+  external: true

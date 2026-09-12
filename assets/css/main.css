@@ -1,0 +1,315 @@
+/* ---------------------------------------------------------------
+   (Danny) To Eun Kim — personal site
+   Single column, minimal. Accent colors carried over from the
+   previous jonbarron-template site for visual continuity.
+   --------------------------------------------------------------- */
+
+:root {
+  --bg:        #ffffff;
+  --fg:        #1a1a1a;
+  --fg-muted:  #666666;
+  --rule:      #e4e4e4;
+  --link:      #1772d0;
+  --link-hover:#f09228;
+  --chip-bg:   #f4f4f4;
+  --chip-on:   #1772d0;
+  --measure:   760px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #15171a;
+    --fg:        #e6e6e6;
+    --fg-muted:  #9aa0a6;
+    --rule:      #2c2f34;
+    --link:      #5fa8f5;
+    --link-hover:#f0a355;
+    --chip-bg:   #23262b;
+    --chip-on:   #5fa8f5;
+  }
+  /* Paper thumbnails are mostly white-background figures. */
+  .pub__thumb img { filter: brightness(.92); }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* The filter script hides entries via the `hidden` attribute. Author rules like
+   `.pub { display: flex }` outrank the UA stylesheet's [hidden] rule, so re-assert
+   it here or hidden elements stay visible. */
+[hidden] { display: none !important; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover, a:focus { color: var(--link-hover); text-decoration: underline; }
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3 { line-height: 1.25; font-weight: 700; }
+h1 { font-size: 1.7rem; margin: 0 0 .3rem; }
+h2 {
+  font-size: 1.3rem;
+  margin: 2.5rem 0 .9rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--rule);
+}
+h3 { font-size: 1.02rem; margin: 1.6rem 0 .35rem; }
+/* Small unbolded aside sitting beside a section heading. */
+.heading-note {
+  font-weight: 400;
+  font-size: .85rem;
+  color: var(--fg-muted);
+  margin-left: .5rem;
+}
+p  { margin: 0 0 1rem; }
+
+/* --- Nav ------------------------------------------------------- */
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem 1rem;
+  padding: 1.5rem 0 .8rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+.site-nav__name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--fg);
+}
+.site-nav__name:hover { color: var(--link-hover); text-decoration: none; }
+.site-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-nav__links a.is-current {
+  color: var(--fg);
+  border-bottom: 2px solid var(--link);
+  padding-bottom: 1px;
+}
+
+/* --- Home header ----------------------------------------------- */
+.profile {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.profile__photo {
+  flex: 0 0 180px;
+  width: 180px;
+  border-radius: 4px;
+}
+.profile__body { flex: 1 1 auto; min-width: 0; }
+.profile__name { font-size: 1.7rem; font-weight: 700; margin: 0; }
+.profile__meta { color: var(--fg-muted); margin: .2rem 0 .7rem; }
+.profile__links {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+/* Text links keep normal link styling; only the brand marks are muted. */
+.profile__links a.icon-link {
+  display: inline-flex;
+  color: var(--fg-muted);
+  line-height: 0;
+}
+.profile__links a.icon-link:hover { color: var(--link-hover); }
+.icon {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;   /* inherits the link colour, so dark mode just works */
+}
+
+/* --- Page header ----------------------------------------------- */
+.page-head { margin-bottom: 1.5rem; }
+.page-head__sub { color: var(--fg-muted); margin: .25rem 0 0; }
+
+/* --- News ------------------------------------------------------ */
+.news { list-style: none; margin: 0; padding: 0; }
+.news li {
+  display: flex;
+  gap: .9rem;
+  padding: .3rem 0;
+  align-items: baseline;
+}
+.news__date {
+  flex: 0 0 5.5rem;
+  color: var(--fg-muted);
+  font-variant-numeric: tabular-nums;
+  font-size: .88rem;
+}
+.news__text { flex: 1 1 auto; min-width: 0; }
+.news__text p { margin: 0; }
+details.news-more,
+details.bio-more { margin-top: .5rem; }
+details.news-more > summary,
+details.bio-more > summary {
+  cursor: pointer;
+  color: var(--link);
+  width: fit-content;
+}
+details.news-more > summary:hover,
+details.bio-more > summary:hover { color: var(--link-hover); }
+details.news-more[open] > summary,
+details.bio-more[open] > summary { margin-bottom: .3rem; }
+
+/* --- Publications ---------------------------------------------- */
+.pub {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.pub:last-child { border-bottom: 0; }
+.pub__thumb { flex: 0 0 180px; }
+.pub__thumb img { width: 180px; border-radius: 3px; display: block; }
+.pub__body { flex: 1 1 auto; min-width: 0; }
+.pub__title { font-weight: 700; }
+.pub__authors { margin: .15rem 0 0; }
+.pub__venue { color: var(--fg-muted); font-style: italic; margin: .15rem 0 0; }
+.pub__award { margin: .15rem 0 0; }
+.pub__links { margin: .3rem 0 0; }
+.pub__tldr { margin: .5rem 0 0; color: var(--fg-muted); font-size: .95rem; }
+.pub__note { font-size: .88rem; color: var(--fg-muted); }
+
+.year-head {
+  font-size: 1.1rem;
+  margin: 2rem 0 .25rem;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--fg-muted);
+}
+
+/* --- Paper pills (research section) ----------------------------- */
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  /* Pull up against the description it belongs to (the preceding <p> carries a
+     1rem bottom margin) and leave clear air before the next research area. */
+  margin: -.55rem 0 1.9rem;
+}
+.paper-links a {
+  display: inline-block;
+  padding: .18rem .65rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--fg-muted);
+  font-size: .82rem;
+  line-height: 1.5;
+}
+.paper-links a:hover,
+.paper-links a:focus {
+  border-color: var(--link);
+  color: var(--link);
+  text-decoration: none;
+}
+
+/* --- Filters --------------------------------------------------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+.chip {
+  font: inherit;
+  font-size: .88rem;
+  padding: .28rem .7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--chip-bg);
+  color: var(--fg);
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--chip-on); }
+.chip[aria-pressed="true"] {
+  background: var(--chip-on);
+  border-color: var(--chip-on);
+  color: #fff;
+}
+.filters select {
+  font: inherit;
+  font-size: .88rem;
+  padding: .28rem .5rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--chip-bg);
+  color: var(--fg);
+}
+.filter-count { color: var(--fg-muted); font-size: .88rem; margin: 0 0 1rem; }
+
+/* --- Generic lists --------------------------------------------- */
+.tight { margin: .25rem 0 1rem; padding-left: 1.2rem; }
+.tight li { margin: .15rem 0; }
+.dated { display: flex; gap: .9rem; }
+.dated__when { flex: 0 0 8rem; color: var(--fg-muted); font-size: .9rem; }
+
+/* --- Footer ---------------------------------------------------- */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  font-size: .88rem;
+  color: var(--fg-muted);
+}
+.site-footer p { margin: 0 0 .4rem; }
+.site-footer__credit { font-size: .82rem; }
+
+/* --- Narrow screens -------------------------------------------- */
+@media (max-width: 600px) {
+  /* Paper thumbnails are decorative; drop them rather than shrink them.
+     Same call the previous site made. */
+  .pub__thumb { display: none; }
+  .profile { flex-direction: column; gap: 1rem; }
+  .profile__photo { flex-basis: auto; width: 150px; }
+  .news li { flex-direction: column; gap: 0; }
+  .news__date { flex-basis: auto; }
+  .dated { flex-direction: column; gap: 0; }
+  .dated__when { flex-basis: auto; }
+  h1, .profile__name { font-size: 1.45rem; }
+}
+
+@media (max-width: 520px) {
+  .site-nav { flex-direction: column; align-items: flex-start; }
+}
+
+/* --- Utilities -------------------------------------------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
