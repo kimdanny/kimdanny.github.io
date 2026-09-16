@@ -23,7 +23,6 @@
   equal_note: true
   year: 2026
   venue: "COLM 2026 Lifelong Agents Workshop"
-  venue_note: "Oral"
   topics: [agent-econ]
   selected: true
   image: /images/matm.png
