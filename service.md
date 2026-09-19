@@ -7,6 +7,9 @@ permalink: /service/
 ## Invited talks
 
 <ul class="tight">
+  <li><strong>Serving the Agent Economy: Retrieval and Evaluation for Distributed Agents</strong> —
+      <a href="https://soothlabs.com" rel="noopener">Sooth Labs</a>, 17 Sep 2026.
+      <a href="{{ '/assets/soothlabs-invited-talk.pdf' | relative_url }}">[slides]</a></li>
   <li><strong>Agent Search and Marketplace Evaluation</strong> —
       <a href="https://agent-search.github.io/agentsearch-sigir26/" rel="noopener">AgentSearch Workshop</a>
       at SIGIR 2026, 24 July 2026.
